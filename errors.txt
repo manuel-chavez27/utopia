@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/chapters/chapter1.rpy", line 34: expected 'image_name_component' not found.
-    scene "Backgrounds/Oase_Front_Gate_Daylight.png" with scene_fade
-          ^
+File "game/screens.rpy", line 100: expected an indented block
+    return 'Green'
+     ^
 
 Ren'Py Version: Ren'Py 8.2.1.24030407
-Sat May 18 10:53:45 2024
+Tue Jun  4 22:01:51 2024

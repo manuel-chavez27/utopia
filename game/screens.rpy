@@ -95,14 +95,28 @@ style frame:
 ##
 ## https://www.renpy.org/doc/html/screen_special.html#say
 
+#This function would help to update the color of the textbox
+init python:
+    def getColor(color):
+        return color
+
 screen say(who, what):
     style_prefix "say"
 
     window:
-        id "window"
-        if yellowTextbox == True:
-            background "gui/textbox/Yellow_Textbox.png" 
-            
+        #Create new window for Custom Textbox
+        id "textbox"
+
+        #Get the type of textbox
+        if textbox == "Narration":
+            style "custom_textbox"
+            background "gui/textbox/Narration_"+getColor(textboxColor)+"_Textbox.png"
+        elif textbox == "Dialogue":
+            style "window"
+            background "gui/textbox/Dialogue_"+getColor(textboxColor)+"_Box.png"
+        elif textbox == "Thought":
+            style "window"
+            background "gui/textbox/Thought_"+getColor(textboxColor)+"_Box.png"
 
         if who is not None:
 
@@ -132,13 +146,23 @@ style say_thought is say_dialogue
 style namebox is default
 style namebox_label is say_label
 
+style custom_textbox is default
+style textbox is default
+
+style custom_textbox:
+    xalign 0.5
+    xfill True
+    yalign gui.textbox_yalign
+    ysize gui.textbox_height
+    ypadding 0.1
+
 style window:
     xalign 0.5
     xfill True
     yalign gui.textbox_yalign
     ysize gui.textbox_height
 
-    background Image("gui/textbox.png", xalign=0.5, yalign=1.0)
+    #background Image("gui/textbox.png", xalign=0.5, yalign=1.0)
 
 style namebox:
     xpos gui.name_xpos
@@ -515,7 +539,7 @@ style game_menu_content_frame:
     top_margin 15
 
 style game_menu_viewport:
-    xsize 1380
+    xsize 920
 
 style game_menu_vscrollbar:
     unscrollable gui.unscrollable

@@ -1,70 +1,75 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While processing the padding property of anonymous style:
-  File "game/chapters/chapter0.rpy", line 55, in script
-    "As the man woke up, he had ragged breath and sweat drops going down his face, he looked at his trembling hands and turned around to see his wife resting beside him."
-  File "game/chapters/chapter0.rpy", line 55, in script
-    "As the man woke up, he had ragged breath and sweat drops going down his face, he looked at his trembling hands and turned around to see his wife resting beside him."
-TypeError: 'int' object is not subscriptable
+While running game code:
+  File "game/chapters/chapter1.rpy", line 35, in script
+    "The winds of the kingdom welcomed travelers from far and wide, coming out from between the heights of the mountains to bless the people with a breath of fresh air. The city stood in its might of shining glory from the middle of the plains between the hills."
+  File "game/chapters/chapter1.rpy", line 35, in script
+    "The winds of the kingdom welcomed travelers from far and wide, coming out from between the heights of the mountains to bless the people with a breath of fresh air. The city stood in its might of shining glory from the middle of the plains between the hills."
+  File "game/screens.rpy", line 102, in execute
+    screen say(who, what):
+  File "game/screens.rpy", line 102, in execute
+    screen say(who, what):
+  File "game/screens.rpy", line 105, in execute
+    window:
+  File "game/screens.rpy", line 105, in keywords
+    window:
+  File "game/screens.rpy", line 110, in keywords
+    if textbox == "Narration":
+  File "game/screens.rpy", line 110, in keywords
+    if textbox == "Narration":
+  File "game/screens.rpy", line 112, in <module>
+    background "gui/textbox/Narration_"+getColor()+"_Textbox.png"
+TypeError: getColor() missing 1 required positional argument: 'color'
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "C:\Users\Elkit\OneDrive\Documentos\renpy-8.2.1-sdk\renpy\bootstrap.py", line 359, in bootstrap
+  File "C:\Users\manuel.chavez\Downloads\Utopia\renpy-8.2.1-sdk\renpy\bootstrap.py", line 359, in bootstrap
     renpy.main.main()
-  File "C:\Users\Elkit\OneDrive\Documentos\renpy-8.2.1-sdk\renpy\main.py", line 635, in main
+  File "C:\Users\manuel.chavez\Downloads\Utopia\renpy-8.2.1-sdk\renpy\main.py", line 635, in main
     run(restart)
-  File "C:\Users\Elkit\OneDrive\Documentos\renpy-8.2.1-sdk\renpy\main.py", line 145, in run
+  File "C:\Users\manuel.chavez\Downloads\Utopia\renpy-8.2.1-sdk\renpy\main.py", line 145, in run
     renpy.execution.run_context(True)
-  File "C:\Users\Elkit\OneDrive\Documentos\renpy-8.2.1-sdk\renpy\execution.py", line 955, in run_context
+  File "C:\Users\manuel.chavez\Downloads\Utopia\renpy-8.2.1-sdk\renpy\execution.py", line 955, in run_context
     context.run()
-  File "game/chapters/chapter0.rpy", line 55, in script
-    "As the man woke up, he had ragged breath and sweat drops going down his face, he looked at his trembling hands and turned around to see his wife resting beside him."
+  File "game/chapters/chapter1.rpy", line 35, in script
+    "The winds of the kingdom welcomed travelers from far and wide, coming out from between the heights of the mountains to bless the people with a breath of fresh air. The city stood in its might of shining glory from the middle of the plains between the hills."
   File "lib/python3.9/future/utils/__init__.py", line 444, in raise_
-  File "game/chapters/chapter0.rpy", line 55, in script
-    "As the man woke up, he had ragged breath and sweat drops going down his face, he looked at his trembling hands and turned around to see his wife resting beside him."
-  File "C:\Users\Elkit\OneDrive\Documentos\renpy-8.2.1-sdk\renpy\ast.py", line 2557, in execute
+  File "game/chapters/chapter1.rpy", line 35, in script
+    "The winds of the kingdom welcomed travelers from far and wide, coming out from between the heights of the mountains to bless the people with a breath of fresh air. The city stood in its might of shining glory from the middle of the plains between the hills."
+  File "C:\Users\manuel.chavez\Downloads\Utopia\renpy-8.2.1-sdk\renpy\ast.py", line 2557, in execute
     Say.execute(self)
-  File "C:\Users\Elkit\OneDrive\Documentos\renpy-8.2.1-sdk\renpy\ast.py", line 615, in execute
+  File "C:\Users\manuel.chavez\Downloads\Utopia\renpy-8.2.1-sdk\renpy\ast.py", line 615, in execute
     renpy.exports.say(who, what, *args, **kwargs)
-  File "C:\Users\Elkit\OneDrive\Documentos\renpy-8.2.1-sdk\renpy\exports.py", line 1493, in say
+  File "C:\Users\manuel.chavez\Downloads\Utopia\renpy-8.2.1-sdk\renpy\exports.py", line 1493, in say
     who(what, *args, **kwargs)
-  File "C:\Users\Elkit\OneDrive\Documentos\renpy-8.2.1-sdk\renpy\character.py", line 1394, in __call__
+  File "C:\Users\manuel.chavez\Downloads\Utopia\renpy-8.2.1-sdk\renpy\character.py", line 1394, in __call__
     self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
-  File "C:\Users\Elkit\OneDrive\Documentos\renpy-8.2.1-sdk\renpy\character.py", line 1045, in do_display
+  File "C:\Users\manuel.chavez\Downloads\Utopia\renpy-8.2.1-sdk\renpy\character.py", line 1045, in do_display
     display_say(who,
-  File "C:\Users\Elkit\OneDrive\Documentos\renpy-8.2.1-sdk\renpy\character.py", line 741, in display_say
-    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
-  File "C:\Users\Elkit\OneDrive\Documentos\renpy-8.2.1-sdk\renpy\ui.py", line 301, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-  File "C:\Users\Elkit\OneDrive\Documentos\renpy-8.2.1-sdk\renpy\display\core.py", line 2165, in interact
-    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
-  File "C:\Users\Elkit\OneDrive\Documentos\renpy-8.2.1-sdk\renpy\display\core.py", line 2687, in interact_core
-    root_widget.visit_all(lambda d : d.per_interact())
-  File "C:\Users\Elkit\OneDrive\Documentos\renpy-8.2.1-sdk\renpy\display\displayable.py", line 431, in visit_all
-    d.visit_all(callback, seen)
-  File "C:\Users\Elkit\OneDrive\Documentos\renpy-8.2.1-sdk\renpy\display\displayable.py", line 431, in visit_all
-    d.visit_all(callback, seen)
-  File "C:\Users\Elkit\OneDrive\Documentos\renpy-8.2.1-sdk\renpy\display\displayable.py", line 431, in visit_all
-    d.visit_all(callback, seen)
-  File "C:\Users\Elkit\OneDrive\Documentos\renpy-8.2.1-sdk\renpy\display\screen.py", line 485, in visit_all
-    self.child.visit_all(callback, seen=None)
-  File "C:\Users\Elkit\OneDrive\Documentos\renpy-8.2.1-sdk\renpy\display\displayable.py", line 431, in visit_all
-    d.visit_all(callback, seen)
-  File "C:\Users\Elkit\OneDrive\Documentos\renpy-8.2.1-sdk\renpy\display\displayable.py", line 421, in visit_all
-    for d in self.visit():
-  File "C:\Users\Elkit\OneDrive\Documentos\renpy-8.2.1-sdk\renpy\display\layout.py", line 1281, in visit
-    self.style._visit_window(rv.append)
-  File "style.pyx", line 541, in renpy.style.StyleCore._visit_window
-  File "style.pyx", line 528, in renpy.style.StyleCore._get_unoffset
-  File "style.pyx", line 493, in renpy.style.StyleCore._get
-  File "style.pyx", line 717, in renpy.style.build_style
-  File "style.pyx", line 714, in renpy.style.build_style
-  File "gen3-static/style_functions.pyx", line 1521, in style_functions.padding_property
-  File "include/style_common.pxi", line 30, in style_functions.index_0
-TypeError: 'int' object is not subscriptable
+  File "C:\Users\manuel.chavez\Downloads\Utopia\renpy-8.2.1-sdk\renpy\character.py", line 686, in display_say
+    what_text = renpy.display.screen.get_widget(what_text[0], what_text[1], what_text[2])
+  File "C:\Users\manuel.chavez\Downloads\Utopia\renpy-8.2.1-sdk\renpy\display\screen.py", line 1534, in get_displayable
+    screen.update()
+  File "C:\Users\manuel.chavez\Downloads\Utopia\renpy-8.2.1-sdk\renpy\display\screen.py", line 697, in update
+    self.screen.function(**self.scope)
+  File "game/screens.rpy", line 102, in execute
+    screen say(who, what):
+  File "game/screens.rpy", line 102, in execute
+    screen say(who, what):
+  File "game/screens.rpy", line 105, in execute
+    window:
+  File "game/screens.rpy", line 105, in keywords
+    window:
+  File "game/screens.rpy", line 110, in keywords
+    if textbox == "Narration":
+  File "game/screens.rpy", line 110, in keywords
+    if textbox == "Narration":
+  File "game/screens.rpy", line 112, in <module>
+    background "gui/textbox/Narration_"+getColor()+"_Textbox.png"
+TypeError: getColor() missing 1 required positional argument: 'color'
 
-Windows-10-10.0.19041 AMD64
+Windows-10-10.0.19045 AMD64
 Ren'Py 8.2.1.24030407
 Utopia 1.0
-Sat May 18 10:00:26 2024
+Tue Jun  4 22:03:28 2024

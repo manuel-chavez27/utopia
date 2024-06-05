@@ -7,8 +7,8 @@ image transition_line = im.Scale("Transition/Line_Transition.png", 1617, 269)
 image transition_cap_number_0 = im.Scale("Transition/Cap_0_Number.png", 510, 198)
 image transition_cap_title_0 = im.Scale("Transition/Cap_0_Text.png", 441, 92)
 
-image scene_1 = im.Scale("Backgrounds/Sandstorm_Scene.png", 1920, 1080)
-image scene_2 = im.Scale("Backgrounds/Room_With_Bed.png", 1920, 1080)
+image scene_1 = "Backgrounds/Sandstorm_Scene.png"
+image scene_2 = "Backgrounds/Room_With_Bed.png"
 
 
 label ch0:
@@ -50,21 +50,22 @@ label ch0:
 
     #Room With Bed Scene
     scene scene_2 with scene_fade
-    $ yellowTextbox = True
+    $ textbox = "Narration"
 
     "As the man woke up, he had ragged breath and sweat drops going down his face, he looked at his trembling hands and turned around to see his wife resting beside him."
     "He took a deep breath and put his hands on his face, wiping the sweat and tears he had."
 
-    show ms_base:
+    show ms base:
         xpos 0.3
         ypos 0
     with dissolve
 
-    show ws_base:
+    show ws base:
         xpos 0
         ypos 0
     with dissolve
 
+    $ textbox = "Dialogue"
     ws "Are you okay, darling…? Can't sleep?"
 
     ms "Sorry, did I wake you?"
@@ -76,8 +77,8 @@ label ch0:
     ms "I cannot forget it. I don't regret it, I never will. I know it was the right choice, but I mustn't forget."
     ms "Sorry for waking you up, let's go back to sleep."
 
-    hide ms_base with dissolve
-    hide ws_base with dissolve
+    hide ms base with dissolve
+    hide ws base with dissolve
     stop music fadeout 1.0
 
     jump ch1
