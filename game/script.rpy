@@ -55,11 +55,11 @@ transform flip:
 ## Characters
 ##----------------
 #Man Silhouette
-define ms = Character("Man", window_background=Frame("gui/textbox/Dialogue_Yellow_Box.png"), color="#FFF")
-image ms base = "Characters/Silhouette/Unknown_Man_Silhouette.png"
+define hs = Character("Husband", window_background=Frame("gui/textbox/Dialogue_Yellow_Box.png"), color="#FFF")
+image hs base = "Characters/Silhouette/Unknown_Man_Silhouette.png"
 
 #Woman Silhouette
-define ws = Character("Woman", window_background=Frame("gui/textbox/Dialogue_Yellow_Box.png"), color="#FFF")
+define ws = Character("Wife", window_background=Frame("gui/textbox/Dialogue_Yellow_Box.png"), color="#FFF")
 image ws base = "Characters/Silhouette/Unknown_Woman_Silhouette.png"
 
 #Common Soldiers
@@ -78,6 +78,9 @@ image fc talking happy = At("Characters/Frederick_Marcus/Casual/FC_Talking_Happy
 image fc ate hot food = "Characters/Frederick_Marcus/Casual/FC_Ate_Hot_Food_Expression.png"
 image fc grunting pained = "Characters/Frederick_Marcus/Casual/FC_Grunting_Pained_Expression.png"
 image fc shy = "Characters/Frederick_Marcus/Casual/FC_Shy_Embarrassed_Expression.png"
+image fc frustrated = "Characters/Frederick_Marcus/Casual/FC_Frustrated_Expression.png"
+image fc depressed = "Characters/Frederick_Marcus/Casual/FC_Depressed_Expression.png"
+image fc angry = "Characters/Frederick_Marcus/Casual/FC_Angry_Expression.png"
 
 #Constantine Appius
 define ca = Character("Constantine Appius", windows_background=Frame("gui/textbox/Dialogue_Yellow_Box.png"), callback = name_callback, cb_name = "constantine", color="#FFF")
@@ -87,8 +90,8 @@ image ca talking serious = "Characters/Constantine_Appius/CA_Talking_Serious_Exp
 image ca talking happy = "Characters/Constantine_Appius/CA_Talking_Happy_Expression.png"
 
 define tm = Character("Tall Man", windows_background=Frame("gui/textbox/Dialogue_Yellow_Box.png"), callback = name_callback, cb_name = "tall", color="#FFF")
-image tm base serious = "Characters/Constantine_Appius/CA_Base_Serious_Expression.png"
-image tm talking serious = "Characters/Constantine_Appius/CA_Talking_Serious_Expression.png"
+image tm base happy = "Characters/Constantine_Appius/CA_Base_Happy_Expression.png"
+image tm talking happy = "Characters/Constantine_Appius/CA_Talking_Happy_Expression.png"
 
 #Blacksmith Jude
 define bj = Character("Blacksmith Jude", windows_background=Frame("gui/textbox/Dialogue_Yellow_Box.png"), callback = name_callback, cb_name = "blacksmith", color="#FFF")
@@ -141,6 +144,14 @@ image va dying = "Characters/Volker_Marcus/armor/VA_Dying_Expression.png"
 image va happy = "Characters/Volker_Marcus/armor/VA_Happy_Expression.png"
 image va scared = "Characters/Volker_Marcus/armor/VA_Scared_Expression.png"
 image va shouting = "Characters/Volker_Marcus/armor/VA_Shouting_Expression.png"
+
+#Anja Klein
+define ak = Character("Anja Klein", windows_background=Frame("gui/textbox/Dialogue_Yellow_Box.png"), callback = name_callback, cb_name = "anja", color="#FFF")
+image ak angry assassin = "Characters/Anja_Klein/A_Angry_Assasin_Look_Expression.png"
+image ak base happy = "Characters/Anja_Klein/A_Base_Happy_Expression.png"
+image ak crying = "Characters/Anja_Klein/A_Crying_Expression.png"
+image ak sad = "Characters/Anja_Klein/A_Sad_Expression.png"
+image ak talking happy= "Characters/Anja_Klein/A_Talking_Happy_Expression.png"
 
 #Ambrus Cadman
 define ac = Character("Ambrus Cadman", windows_background=Frame("gui/textbox/Dialogue_Yellow_Box.png"), callback = name_callback, cb_name = "ambrus", color="#FFF")

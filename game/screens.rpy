@@ -323,7 +323,12 @@ screen navigation():
 
         if main_menu:
 
-            textbutton _("Start") action Start()
+            #textbutton _("Start") action Start()
+            imagebutton:
+                yalign 0.5
+                idle "gui/main_menu/Assets/New_Game.png"
+                hover "gui/main_menu/Assets/New_Game_2.png"
+                action Start()
 
         else:
 
@@ -334,6 +339,11 @@ screen navigation():
         textbutton _("Load") action ShowMenu("load")
 
         textbutton _("Preferences") action ShowMenu("preferences")
+
+        imagebutton:
+            idle "gui/main_menu/Assets/Gallery.png"
+            hover "gui/main_menu/Assets/Gallery_2.png"
+            action ShowMenu("gallery")
 
         if _in_replay:
 
@@ -1523,6 +1533,30 @@ define bubble.expand_area = {
     "top_right" : (0, 22, 0, 0),
     "thought" : (0, 0, 0, 0),
 }
+
+
+## Gallery screen ##############################################################
+##
+## This is a screen that displays the gallery menu. 
+##
+screen gallery():
+    add "gui/gallery/Gallery_Background.png"
+    imagebutton:
+        idle "gui/gallery/Return_Button.png"
+        action Hide("gallery")
+    hbox:
+        yalign 0.5
+        imagebutton:
+            idle im.Scale("gui/gallery/Character/Character_Book.png", 800, 700)
+            hover im.Scale("gui/gallery/Character/Character_Book_2.png", 800, 700)
+            action ShowMenu("character")
+
+screen character():
+    add "gui/gallery/Character/Character_First_Page.png"
+    imagebutton:
+        idle "gui/gallery/Return_Button.png"
+        action Hide("character")
+
 
 
 

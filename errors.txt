@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/screens.rpy", line 100: expected an indented block
-    return 'Green'
-     ^
+File "game/screens.rpy", line 1547: hbox expects a non-empty block.
+    hbox:
+         ^
 
 Ren'Py Version: Ren'Py 8.2.1.24030407
-Tue Jun  4 22:01:51 2024
+Sat Jun 15 03:40:06 2024

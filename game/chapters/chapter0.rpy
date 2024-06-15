@@ -36,7 +36,9 @@ label ch0:
     "Was he always meant to betray us?"
     "Was I always meant to kill him?"
 
-    #Sandstorm Scene
+    ##----------------
+    ## Sandstorm Scene
+    ##----------------
     scene scene_1 with scene_fade
 
     "I dream of that violent sandstorm closing in, the sight and smell of rotting, dead bodies… my mentor… my friend… the traitor, coming for my life."
@@ -48,14 +50,18 @@ label ch0:
 
     "I wake up."
 
-    #Room With Bed Scene
+    ##----------------
+    ## Room with Bed Scene
+    ##----------------
     scene scene_2 with scene_fade
     $ textbox = "Narration"
 
     "As the man woke up, he had ragged breath and sweat drops going down his face, he looked at his trembling hands and turned around to see his wife resting beside him."
     "He took a deep breath and put his hands on his face, wiping the sweat and tears he had."
 
-    show ms base:
+    window hide
+
+    show hs base:
         xpos 0.3
         ypos 0
     with dissolve
@@ -68,16 +74,16 @@ label ch0:
     $ textbox = "Dialogue"
     ws "Are you okay, darling…? Can't sleep?"
 
-    ms "Sorry, did I wake you?"
-    ms "I was just dreaming… no, remembering about the day I became the emperor…"
+    hs "Sorry, did I wake you?"
+    hs "I was just dreaming… no, remembering about the day I became the emperor…"
 
     ws "Why now? It's been a long time since then. You did everything you could, what you had to do. With that decision, you saved everyone. You reached the dream you shared with your brother… the dream everyone shared."
     ws "Don't let that torment you any longer, and let the past rest."
 
-    ms "I cannot forget it. I don't regret it, I never will. I know it was the right choice, but I mustn't forget."
-    ms "Sorry for waking you up, let's go back to sleep."
+    hs "I cannot forget it. I don't regret it, I never will. I know it was the right choice, but I mustn't forget."
+    hs "Sorry for waking you up, let's go back to sleep."
 
-    hide ms base with dissolve
+    hide hs base with dissolve
     hide ws base with dissolve
     stop music fadeout 1.0
 
