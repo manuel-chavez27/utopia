@@ -70,11 +70,11 @@ image cso scared = "Characters/Common_Soldiers/Oase_Soldiers/OS_Scared_Expressio
 image cso shouting = "Characters/Common_Soldiers/Oase_Soldiers/OS_Shouting_Expression.png"
 
 #Frederick Marcus
-define fm = Character("Frederick Marcus", window_background=Frame("gui/textbox/Dialogue_Yellow_Box.png"), callback = name_callback, cb_name = "frederick", color="#FFF")
+define fm = Character("Frederick Marcus", window_background=Frame("gui/textbox/Dialogue_Yellow_Box.png"), callback = name_callback, cb_name = "frederick", color="#ffffff")
 image fc base serious = "Characters/Frederick_Marcus/Casual/FC_Base_Serious_Expression.png"
 image fc base happy = "Characters/Frederick_Marcus/Casual/FC_Base_Happy_Expression.png"
-image fc talking serious = At("Characters/Frederick_Marcus/Casual/FC_Talking_Serious_Expression.png",sprite_highlight('frederick'))
-image fc talking happy = At("Characters/Frederick_Marcus/Casual/FC_Talking_Happy_Expression.png",sprite_highlight('frederick'))
+image fc talking serious = At("Characters/Frederick_Marcus/Casual/FC_Talking_Serious_Expression.png")
+image fc talking happy = At("Characters/Frederick_Marcus/Casual/FC_Talking_Happy_Expression.png")
 image fc ate hot food = "Characters/Frederick_Marcus/Casual/FC_Ate_Hot_Food_Expression.png"
 image fc grunting pained = "Characters/Frederick_Marcus/Casual/FC_Grunting_Pained_Expression.png"
 image fc shy = "Characters/Frederick_Marcus/Casual/FC_Shy_Embarrassed_Expression.png"

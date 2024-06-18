@@ -23,3 +23,5 @@ label ch2:
         ypos 0.6
     with transition_dissolve
     pause
+
+    scene scene_1 with scene_fade

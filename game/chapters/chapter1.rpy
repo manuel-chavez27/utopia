@@ -62,7 +62,7 @@ label ch1:
     show fc base happy:
         xcenter 0.85
         ypos 0
-        darken
+        darken 
     with dissolve
 
     show cso base serious:
@@ -71,6 +71,8 @@ label ch1:
         flip
         darken
     with dissolve
+
+    pause
 
     show cso talking serious:
         xcenter 0.15
