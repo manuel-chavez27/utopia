@@ -110,13 +110,16 @@ screen say(who, what):
         #Get the type of textbox
         if textbox == "Narration":
             style "custom_textbox"
+            #background "gui/textbox/Narration_"+getColor(textboxColor)+"_Textbox.png"
             background "gui/textbox/Narration_"+getColor(textboxColor)+"_Textbox.png"
         elif textbox == "Dialogue":
             style "window"
             background "gui/textbox/Dialogue_"+getColor(textboxColor)+"_Box.png"
+            #background "gui/textbox/Dialogue_"+getColor(textboxColor)+"_Box.png"
         elif textbox == "Thought":
             style "window"
             background "gui/textbox/Thought_"+getColor(textboxColor)+"_Box.png"
+            #background "gui/textbox/Thought_"+getColor(textboxColor)+"_Box.png"
 
         if who is not None:
 
@@ -149,20 +152,22 @@ style namebox_label is say_label
 style custom_textbox is default
 style textbox is default
 
+#Style for textbox for Narration
 style custom_textbox:
-    xalign 0.5
+    xalign 0
     xfill True
     yalign gui.textbox_yalign
     ysize gui.textbox_height
-    ypadding 0.1
-
+    ypadding 0.05
+    xpos 100
+    
+#Style for textbox with character talking
 style window:
-    xalign 0.5
+    xalign 0
     xfill True
-    yalign gui.textbox_yalign
+    yalign 1.05
     ysize gui.textbox_height
-
-    #background Image("gui/textbox.png", xalign=0.5, yalign=1.0)
+    xpos 100
 
 style namebox:
     xpos gui.name_xpos
@@ -181,11 +186,18 @@ style say_label:
 
 style say_dialogue:
     properties gui.text_properties("dialogue")
-
+    #Adjusting size for new textbox
     xpos gui.dialogue_xpos
-    xsize gui.dialogue_width
-    ypos gui.dialogue_ypos
+    xsize 1750
+    ypos 70
+    adjust_spacing False
 
+style say_thought:
+    properties gui.text_properties("dialogue")
+    #Adjusting size for new textbox
+    xpos 70
+    xsize 1670
+    ypos 70
     adjust_spacing False
 
 ## Input screen ################################################################
