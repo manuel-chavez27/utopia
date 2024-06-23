@@ -1,0 +1,6 @@
+#   Ignore saves directory
+saves
+*.save
+
+#   Ignore all txt files
+*.txt
