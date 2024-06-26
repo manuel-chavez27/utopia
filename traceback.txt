@@ -1,74 +1,40 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While loading <renpy.display.im.Image object ('im.Scale(gui/textbox/Narration_Yellow_Textbox.png)') at 0x00000000089c5ac0>:
-  File "game/chapters/chapter1.rpy", line 59, in script
-    "The strapping young knight took careful steps forward with his horse, riding down the steep road of cobblestone. Goats grazed about the pastures without a care in the world, though they would be beckoned back by their shepherds, who saw the foreigner. Frederick could only awkwardly smile and wave as he rode past them."
-OSError: Couldn't find file 'im.Scale(gui/textbox/Narration_Yellow_Textbox.png)'.
+While running game code:
+  File "game/chapters/chapter1.rpy", line 70, in script
+    $ show_character("fc base happy", 0.85, 0, True, lighten, flip)
+  File "game/chapters/chapter1.rpy", line 70, in <module>
+    $ show_character("fc base happy", 0.85, 0, True, lighten, flip)
+  File "game/functions.rpy", line 19, in show_character
+    renpy.with_statement(dissolve)
+TypeError: 'bool' object is not callable
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/chapters/chapter1.rpy", line 59, in script
-    "The strapping young knight took careful steps forward with his horse, riding down the steep road of cobblestone. Goats grazed about the pastures without a care in the world, though they would be beckoned back by their shepherds, who saw the foreigner. Frederick could only awkwardly smile and wave as he rode past them."
-  File "C:\Users\Elkit\OneDrive\Documentos\renpy-8.2.1-sdk\renpy\ast.py", line 2557, in execute
-    Say.execute(self)
-  File "C:\Users\Elkit\OneDrive\Documentos\renpy-8.2.1-sdk\renpy\ast.py", line 615, in execute
-    renpy.exports.say(who, what, *args, **kwargs)
-  File "C:\Users\Elkit\OneDrive\Documentos\renpy-8.2.1-sdk\renpy\exports.py", line 1493, in say
-    who(what, *args, **kwargs)
-  File "C:\Users\Elkit\OneDrive\Documentos\renpy-8.2.1-sdk\renpy\character.py", line 1394, in __call__
-    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
-  File "C:\Users\Elkit\OneDrive\Documentos\renpy-8.2.1-sdk\renpy\character.py", line 1045, in do_display
-    display_say(who,
-  File "C:\Users\Elkit\OneDrive\Documentos\renpy-8.2.1-sdk\renpy\character.py", line 741, in display_say
-    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
-  File "C:\Users\Elkit\OneDrive\Documentos\renpy-8.2.1-sdk\renpy\ui.py", line 301, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "game/chapters/chapter1.rpy", line 70, in script
+    $ show_character("fc base happy", 0.85, 0, True, lighten, flip)
+  File "C:\Users\Elkit\OneDrive\Documentos\renpy-8.2.1-sdk\renpy\ast.py", line 823, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\Elkit\OneDrive\Documentos\renpy-8.2.1-sdk\renpy\python.py", line 1178, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "game/chapters/chapter1.rpy", line 70, in <module>
+    $ show_character("fc base happy", 0.85, 0, True, lighten, flip)
+  File "game/functions.rpy", line 19, in show_character
+    renpy.with_statement(dissolve)
+  File "C:\Users\Elkit\OneDrive\Documentos\renpy-8.2.1-sdk\renpy\exports.py", line 1781, in with_statement
+    return renpy.game.interface.do_with(trans, paired, clear=clear)
+  File "C:\Users\Elkit\OneDrive\Documentos\renpy-8.2.1-sdk\renpy\display\core.py", line 1548, in do_with
+    return self.interact(trans_pause=True,
   File "C:\Users\Elkit\OneDrive\Documentos\renpy-8.2.1-sdk\renpy\display\core.py", line 2165, in interact
     repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
-  File "C:\Users\Elkit\OneDrive\Documentos\renpy-8.2.1-sdk\renpy\display\core.py", line 2818, in interact_core
-    self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
-  File "C:\Users\Elkit\OneDrive\Documentos\renpy-8.2.1-sdk\renpy\display\core.py", line 1352, in draw_screen
-    surftree = renpy.display.render.render_screen(
-  File "render.pyx", line 486, in renpy.display.render.render_screen
-  File "render.pyx", line 260, in renpy.display.render.render
-  File "C:\Users\Elkit\OneDrive\Documentos\renpy-8.2.1-sdk\renpy\display\layout.py", line 900, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 260, in renpy.display.render.render
-  File "C:\Users\Elkit\OneDrive\Documentos\renpy-8.2.1-sdk\renpy\display\layout.py", line 900, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 260, in renpy.display.render.render
-  File "C:\Users\Elkit\OneDrive\Documentos\renpy-8.2.1-sdk\renpy\display\layout.py", line 900, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 260, in renpy.display.render.render
-  File "C:\Users\Elkit\OneDrive\Documentos\renpy-8.2.1-sdk\renpy\display\screen.py", line 754, in render
-    child = renpy.display.render.render(self.child, w, h, st, at)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 260, in renpy.display.render.render
-  File "C:\Users\Elkit\OneDrive\Documentos\renpy-8.2.1-sdk\renpy\display\layout.py", line 900, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 260, in renpy.display.render.render
-  File "C:\Users\Elkit\OneDrive\Documentos\renpy-8.2.1-sdk\renpy\display\layout.py", line 1396, in render
-    back = render(style.background, bw, bh, st, at)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 260, in renpy.display.render.render
-  File "C:\Users\Elkit\OneDrive\Documentos\renpy-8.2.1-sdk\renpy\display\im.py", line 626, in render
-    return cache.get(self, render=True)
-  File "C:\Users\Elkit\OneDrive\Documentos\renpy-8.2.1-sdk\renpy\display\im.py", line 309, in get
-    surf = image.load()
-  File "C:\Users\Elkit\OneDrive\Documentos\renpy-8.2.1-sdk\renpy\display\im.py", line 761, in load
-    raise e
-  File "C:\Users\Elkit\OneDrive\Documentos\renpy-8.2.1-sdk\renpy\display\im.py", line 711, in load
-    filelike = renpy.loader.load(self.filename, directory="images")
-  File "C:\Users\Elkit\OneDrive\Documentos\renpy-8.2.1-sdk\renpy\loader.py", line 672, in load
-    raise IOError("Couldn't find file '%s'." % name)
-OSError: Couldn't find file 'im.Scale(gui/textbox/Narration_Yellow_Textbox.png)'.
+  File "C:\Users\Elkit\OneDrive\Documentos\renpy-8.2.1-sdk\renpy\display\core.py", line 2608, in interact_core
+    trans = instantiate_transition(None, old_root, layers_root)
+  File "C:\Users\Elkit\OneDrive\Documentos\renpy-8.2.1-sdk\renpy\display\core.py", line 2518, in instantiate_transition
+    trans = self.ongoing_transition[layer](
+TypeError: 'bool' object is not callable
 
 Windows-10-10.0.19041 AMD64
 Ren'Py 8.2.1.24030407
 Utopia 1.0
-Thu Jun 20 21:36:40 2024
+Sat Jun 22 07:29:39 2024
