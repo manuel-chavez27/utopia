@@ -59,11 +59,15 @@ label ch1:
     "The strapping young knight took careful steps forward with his horse, riding down the steep road of cobblestone. Goats grazed about the pastures without a care in the world, though they would be beckoned back by their shepherds, who saw the foreigner. Frederick could only awkwardly smile and wave as he rode past them."
     "Those unaccustomed to this road were easy to spot because of how they walked—or rode. The gatekeepers could spot them from a mile away, and Frederick was no exception. One of them approached the knight as he would near the gate, holding his spear steady in hand."
 
-    show fc base happy:
-        xcenter 0.85
-        ypos 0
-        darken 
-    with dissolve
+    # show fc base happy:
+    #     xcenter 0.85
+    #     ypos 0
+    #     darken 
+    # with dissolve
+
+    #$ show_character('fc', 'base happy', xpos=0.85, ypos=0)
+
+    $ show_character("fc base happy", 0.85, 0, True, lighten, flip)
 
     show cso base serious:
         xcenter 0.15
@@ -71,6 +75,7 @@ label ch1:
         flip
         darken
     with dissolve
+
 
     pause
 
