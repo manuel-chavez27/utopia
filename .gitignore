@@ -4,3 +4,4 @@ saves
 
 #   Ignore all txt files
 *.txt
+log.txt
