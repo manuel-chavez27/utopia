@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/functions.rpy", line 2: invalid syntax
-    def show_character(image, xcenter, ypos, dissolve=False transform1=None, transform2=None):
-                                                             ^
+File "game/screens.rpy", line 1547: hbox expects a non-empty block.
+    hbox:
+         ^
 
 Ren'Py Version: Ren'Py 8.2.1.24030407
-Sat Jun 22 07:29:29 2024
+Sat Jun 15 03:40:06 2024

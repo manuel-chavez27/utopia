@@ -1,3 +1,10 @@
+#   Ignore saves directory
+saves
+*.save
+
+#   Ignore all txt files
+*.txt
+log.txt
 game/saves/
 game/cache/
 errors.txt

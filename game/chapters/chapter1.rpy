@@ -2476,4 +2476,4 @@ label ch1:
         "After dinner, Frederick spent the rest of the night talking with his younger brother about Oase City and his trips until both went to sleep."
         "The next day was a calm one. The selected people just left for the city, and the rest of the townsfolk continued with their daily lives. Frederick trained with his father and Ulrick. They even had a duel between Frederick and Volker, but ended up going to eat without declaring a victor."
 
-        jump ch2
+        jump ch2_s00_transition

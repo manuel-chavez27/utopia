@@ -1,40 +1,56 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While running game code:
-  File "game/chapters/chapter1.rpy", line 70, in script
-    $ show_character("fc base happy", 0.85, 0, True, lighten, flip)
-  File "game/chapters/chapter1.rpy", line 70, in <module>
-    $ show_character("fc base happy", 0.85, 0, True, lighten, flip)
-  File "game/functions.rpy", line 19, in show_character
-    renpy.with_statement(dissolve)
-TypeError: 'bool' object is not callable
+After initialization, but before game start.
+  File "game/screens.rpy", line 103, in prepare_screen
+    screen say(who, what):
+  File "game/screens.rpy", line 103, in prepare
+    screen say(who, what):
+  File "game/screens.rpy", line 106, in prepare
+    window:
+  File "game/screens.rpy", line 106, in prepare
+    window:
+  File "game/screens.rpy", line 111, in prepare
+    if textbox == "Narration":
+  File "game/screens.rpy", line 114, in prepare
+    elif textbox == "Dialogue":
+SyntaxError: invalid syntax (game/screens.rpy, line 116)
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/chapters/chapter1.rpy", line 70, in script
-    $ show_character("fc base happy", 0.85, 0, True, lighten, flip)
-  File "C:\Users\Elkit\OneDrive\Documentos\renpy-8.2.1-sdk\renpy\ast.py", line 823, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "C:\Users\Elkit\OneDrive\Documentos\renpy-8.2.1-sdk\renpy\python.py", line 1178, in py_exec_bytecode
-    exec(bytecode, globals, locals)
-  File "game/chapters/chapter1.rpy", line 70, in <module>
-    $ show_character("fc base happy", 0.85, 0, True, lighten, flip)
-  File "game/functions.rpy", line 19, in show_character
-    renpy.with_statement(dissolve)
-  File "C:\Users\Elkit\OneDrive\Documentos\renpy-8.2.1-sdk\renpy\exports.py", line 1781, in with_statement
-    return renpy.game.interface.do_with(trans, paired, clear=clear)
-  File "C:\Users\Elkit\OneDrive\Documentos\renpy-8.2.1-sdk\renpy\display\core.py", line 1548, in do_with
-    return self.interact(trans_pause=True,
-  File "C:\Users\Elkit\OneDrive\Documentos\renpy-8.2.1-sdk\renpy\display\core.py", line 2165, in interact
-    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
-  File "C:\Users\Elkit\OneDrive\Documentos\renpy-8.2.1-sdk\renpy\display\core.py", line 2608, in interact_core
-    trans = instantiate_transition(None, old_root, layers_root)
-  File "C:\Users\Elkit\OneDrive\Documentos\renpy-8.2.1-sdk\renpy\display\core.py", line 2518, in instantiate_transition
-    trans = self.ongoing_transition[layer](
-TypeError: 'bool' object is not callable
+  File "C:\Users\manuel.chavez\Downloads\Utopia\renpy-8.2.1-sdk\renpy\bootstrap.py", line 359, in bootstrap
+    renpy.main.main()
+  File "C:\Users\manuel.chavez\Downloads\Utopia\renpy-8.2.1-sdk\renpy\main.py", line 635, in main
+    run(restart)
+  File "C:\Users\manuel.chavez\Downloads\Utopia\renpy-8.2.1-sdk\renpy\main.py", line 94, in run
+    renpy.display.screen.prepare_screens()
+  File "C:\Users\manuel.chavez\Downloads\Utopia\renpy-8.2.1-sdk\renpy\display\screen.py", line 1026, in prepare_screens
+    s.ast.prepare_screen()
+  File "game/screens.rpy", line 103, in prepare_screen
+    screen say(who, what):
+  File "game/screens.rpy", line 103, in prepare
+    screen say(who, what):
+  File "game/screens.rpy", line 106, in prepare
+    window:
+  File "game/screens.rpy", line 106, in prepare
+    window:
+  File "game/screens.rpy", line 111, in prepare
+    if textbox == "Narration":
+  File "game/screens.rpy", line 114, in prepare
+    elif textbox == "Dialogue":
+  File "C:\Users\manuel.chavez\Downloads\Utopia\renpy-8.2.1-sdk\renpy\py3analysis.py", line 803, in ast_eval
+    return self.ast_eval_literal(expr)[0]
+  File "C:\Users\manuel.chavez\Downloads\Utopia\renpy-8.2.1-sdk\renpy\py3analysis.py", line 785, in ast_eval_literal
+    expr = py_compile(expr, 'eval', ast_node=True)
+  File "C:\Users\manuel.chavez\Downloads\Utopia\renpy-8.2.1-sdk\renpy\python.py", line 1144, in py_compile
+    raise e
+  File "C:\Users\manuel.chavez\Downloads\Utopia\renpy-8.2.1-sdk\renpy\python.py", line 1081, in py_compile
+    raise orig_e
+  File "C:\Users\manuel.chavez\Downloads\Utopia\renpy-8.2.1-sdk\renpy\python.py", line 1073, in py_compile
+    tree = compile(source, filename, py_mode, ast.PyCF_ONLY_AST | flags, 1)
+SyntaxError: invalid syntax (game/screens.rpy, line 116)
 
-Windows-10-10.0.19041 AMD64
+Windows-10-10.0.19045 AMD64
 Ren'Py 8.2.1.24030407
 Utopia 1.0
-Sat Jun 22 07:29:39 2024
+Sat Jun 15 05:45:25 2024
