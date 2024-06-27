@@ -325,11 +325,11 @@ style quick_button_text:
 
 screen navigation():
 
-    vbox:
+    hbox:
         style_prefix "navigation"
 
-        xpos gui.navigation_xpos
-        yalign 0.5
+        xalign 0.5
+        yalign 0.9
 
         spacing gui.navigation_spacing
 
@@ -348,7 +348,11 @@ screen navigation():
 
             textbutton _("Save") action ShowMenu("save")
 
-        textbutton _("Load") action ShowMenu("load")
+        #textbutton _("Load") action ShowMenu("load")
+        imagebutton:
+            idle "gui/main_menu/Assets/Load.png"
+            hover "gui/main_menu/Assets/Load_2.png"
+            action ShowMenu("load")
 
         textbutton _("Preferences") action ShowMenu("preferences")
 

@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/screens.rpy", line 1547: hbox expects a non-empty block.
-    hbox:
-         ^
+File "game/screens.rpy", line 320: Line is indented, but the preceding xalign statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    yalign 1.0
+    ^
 
-Ren'Py Version: Ren'Py 8.2.1.24030407
-Sat Jun 15 03:40:06 2024
+Ren'Py Version: Ren'Py 8.2.3.24061702
+Tue Jun 25 23:54:57 2024
