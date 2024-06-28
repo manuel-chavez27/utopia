@@ -16,3 +16,17 @@ init python:
 
         if use_dissolve:
             renpy.with_statement(dissolve)
+
+    def has_saved_games():
+        #   Get the list of saved games
+        saves = renpy.list_saved_games()
+
+        #   Check if the list is not empty
+        return bool(saves)
+
+    def has_quick_saves():
+        saved_games = renpy.list_saved_games()
+        for save in saved_games:
+            if "quick" in save[0]:
+                return True
+        return False

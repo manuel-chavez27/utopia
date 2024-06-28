@@ -3,6 +3,8 @@
 ##----------------
 image libertis_wall_rampart_night = "Backgrounds/Libertis_Wall_Rampart_Night.png"
 
+image utopia_phase_one = "gui/main_menu/Assets/Utopia_Phase_One.png"
+
 ##----------------
 ##  Characters
 ##----------------
