@@ -292,8 +292,8 @@ screen quick_menu():
             textbutton _("Skip") action Skip() alternate Skip(fast=True, confirm=True)
             textbutton _("Auto") action Preference("auto-forward", "toggle")
             textbutton _("Save") action ShowMenu('save')
-            textbutton _("Q.Save") action QuickSave()
-            textbutton _("Q.Load") action QuickLoad()
+            textbutton _("Q.Save") action [QuickSave(), Function(renpy.restart_interaction)]
+            textbutton _("Q.Load") action [QuickLoad(), Function(renpy.restart_interaction)]
             textbutton _("Prefs") action ShowMenu('preferences')
 
 
@@ -333,29 +333,16 @@ screen navigation():
 
         spacing gui.navigation_spacing
 
-        if main_menu:
-
-            #textbutton _("Start") action Start()
-            imagebutton:
-                yalign 0.5
-                idle "gui/main_menu/Assets/New_Game.png"
-                hover "gui/main_menu/Assets/New_Game_2.png"
-                action Start()
-
-        else:
-
+        if not main_menu:
             textbutton _("History") action ShowMenu("history")
 
             textbutton _("Save") action ShowMenu("save")
+
 
         textbutton _("Load") action ShowMenu("load")
 
         textbutton _("Preferences") action ShowMenu("preferences")
 
-        imagebutton:
-            idle "gui/main_menu/Assets/Gallery.png"
-            hover "gui/main_menu/Assets/Gallery_2.png"
-            action ShowMenu("gallery")
 
         if _in_replay:
 
@@ -377,6 +364,7 @@ screen navigation():
             ## The quit button is banned on iOS and unnecessary on Android and
             ## Web.
             textbutton _("Quit") action Quit(confirm=not main_menu)
+
 
 
 style navigation_button is gui_button
@@ -409,18 +397,85 @@ screen main_menu():
 
     ## The use statement includes another screen inside this one. The actual
     ## contents of the main menu are in the navigation screen.
-    use navigation
+    hbox:
+        style_prefix "navigation"
+
+        xalign 0.5
+        yalign 0.8
+
+        spacing 25
+
+        imagebutton:
+            idle "gui/main_menu/Assets/New_Game.png"
+            hover "gui/main_menu/Assets/New_Game_2.png"
+            action Start()
+            at imagebutton_zoom
+
+        if has_quick_saves():
+            imagebutton:
+                idle "gui/main_menu/Assets/Continue.png"
+                hover "gui/main_menu/Assets/Continue_2.png"
+                action QuickLoad()
+                at imagebutton_zoom
+        else:
+            imagebutton:
+                idle "gui/main_menu/Assets/Continue_disabled.png"
+                hover "gui/main_menu/Assets/Continue_disabled.png"
+                action None
+                sensitive False
+                at imagebutton_zoom
+
+    
+        if has_saved_games():
+            imagebutton:
+                idle "gui/main_menu/Assets/Load.png"
+                hover "gui/main_menu/Assets/Load_2.png"
+                action ShowMenu("load")
+                at imagebutton_zoom
+        else:
+            imagebutton:
+                idle "gui/main_menu/Assets/Load_disabled.png"
+                hover "gui/main_menu/Assets/Load_disabled.png"
+                action None
+                sensitive False
+                at imagebutton_zoom
+
+        imagebutton:
+            idle "gui/main_menu/Assets/Replay.png"
+            hover "gui/main_menu/Assets/Replay_2.png"
+            action ShowMenu("replay")
+            at imagebutton_zoom
+        
+        imagebutton:
+            idle "gui/main_menu/Assets/Gallery.png"
+            hover "gui/main_menu/Assets/Gallery_2.png"
+            action ShowMenu("gallery")
+            at imagebutton_zoom
+
+        imagebutton:
+            idle "gui/main_menu/Assets/Encyclopedia.png"
+            hover "gui/main_menu/Assets/Encyclopedia_2.png"
+            action ShowMenu("gallery")
+            at imagebutton_zoom
+
+        imagebutton:
+            idle "gui/main_menu/Assets/Settings.png"
+            hover "gui/main_menu/Assets/Settings_2.png"
+            action ShowMenu("preferences")
+            at imagebutton_zoom
+
+        imagebutton:
+            idle "gui/main_menu/Assets/Quit_game.png"
+            hover "gui/main_menu/Assets/Quit_game_2.png"
+            action Quit(confirm=not main_menu)
+            at imagebutton_zoom
 
     if gui.show_name:
 
         vbox:
-            style "main_menu_vbox"
-
-            text "[config.name!t]":
-                style "main_menu_title"
-
-            text "[config.version]":
-                style "main_menu_version"
+            xalign 1.0
+            add "gui/main_menu/Assets/Utopia_Phase_One.png"
+            at image_utopia_phase_one
 
 
 style main_menu_frame is empty
@@ -429,11 +484,11 @@ style main_menu_text is gui_text
 style main_menu_title is main_menu_text
 style main_menu_version is main_menu_text
 
-style main_menu_frame:
-    xsize 420
-    yfill True
+#style main_menu_frame:
+#    xsize 420
+#    yfill True
 
-    background "gui/overlay/main_menu.png"
+#    background "gui/overlay/main_menu.png"
 
 style main_menu_vbox:
     xalign 1.0

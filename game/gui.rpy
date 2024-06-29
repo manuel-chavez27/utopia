@@ -87,7 +87,7 @@ define gui.title_text_size = 75
 ## Main and Game Menus #########################################################
 
 ## The images used for the main and game menus.
-define gui.main_menu_background = "gui/main_menu/Main_Menu_Background.jpg"
+define gui.main_menu_background = "images/Backgrounds/Oase_City.png"
 define gui.game_menu_background = "gui/game_menu.png"
 
 
