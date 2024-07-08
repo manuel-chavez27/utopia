@@ -1,3 +1,4 @@
+#Show Characters
 init python:
     def show_character(image, xcenter, ypos, use_dissolve=False, transform1=None, transform2=None):
 
