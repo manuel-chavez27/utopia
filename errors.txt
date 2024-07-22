@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/lib/functions.rpy", line 28: expected an indented block
-    saved_games = renpy.list_saved_games()
-     ^
+File "game/character_frame.rpy", line 31: 'xalign' is not a keyword argument or valid child of the for statement.
+    xalign 0.5
+          ^
 
 Ren'Py Version: Ren'Py 8.2.3.24061702
-Thu Jun 27 23:21:48 2024
+Sat Jul 20 07:13:06 2024

@@ -2,6 +2,48 @@
 # The game starts here.
 
 ##----------------
+## Persistent variables for backgrounds
+##----------------
+default persistent.sandstorm_scene = ""
+default persistent.room_with_beed_scene = ""
+default persistent.oase_city_scene = ""
+default persistent.oase_wall_scene = ""
+default persistent.oase_training_daylight_scene = ""
+default persistent.oase_market_daylight_scene = ""
+default persistent.abandoned_houses_scene = ""
+default persistent.oase_smithery_scene = ""
+default persistent.lord_annot_throne_room_scene = ""
+default persistent.lord_annot_dinning_room_scene = ""
+default persistent.libertis_forest_road_daylight_scene = ""
+default persistent.libertis_village_daylight_scene = ""
+default persistent.libertis_wall_rampart_night_scene = ""
+default persistent.interior_house_scene = ""
+
+##----------------
+## Persistent variables for story_scenes
+default persistent.frederick_vs_ambrus_v1 = ""
+default persistent.frederick_vs_ambrus_v2 = ""
+default persistent.frederick_vs_ambrus_v3 = ""
+default persistent.ambrus_regenerates_v1 = ""
+default persistent.ambrus_regenerates_v2 = ""
+##----------------
+
+##----------------
+## Persistent variables for characters
+##----------------
+#Frederick Marcus
+default persistent.frederick_casual_base_serious = ""
+default persistent.frederick_casual_base_happy = ""
+default persistent.frederick_casual_talking_serious = ""
+default persistent.frederick_casual_talking_happy = ""
+default persistent.frederick_casual_ate_hot_food = ""
+default persistent.frederick_casual_grunting_pained = ""
+default persistent.frederick_casual_shy = ""
+default persistent.frederick_casual_frustrated = ""
+default persistent.frederick_casual_deppresed = ""
+default persistent.frederick_casual_angry = ""
+
+##----------------
 ## Animations
 ##----------------
 define transition_dissolve = Dissolve(1)

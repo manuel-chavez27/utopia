@@ -18,3 +18,8 @@ init python:
 
         if use_dissolve:
             renpy.with_statement(dissolve)
+
+    class Outfit:
+        def __init__(self, character, outfit):
+            self.character = character
+            self.outfit = outfit

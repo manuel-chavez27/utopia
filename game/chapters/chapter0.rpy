@@ -10,7 +10,6 @@ image transition_cap_title_0 = im.Scale("Transition/Cap_0_Text.png", 441, 92)
 image scene_1 = "Backgrounds/Sandstorm_Scene.png"
 image scene_2 = "Backgrounds/Room_With_Bed.png"
 
-
 label ch0:
     play sound "audio/sfx/Intro_Transition.mp3"
     scene transition_background with fade
@@ -32,6 +31,7 @@ label ch0:
     stop sound
     scene black
     play music facing_uncomfort loop
+    $ persistent.sandstorm_scene = True
 
     "Was he always meant to betray us?"
     "Was I always meant to kill him?"
