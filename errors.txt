@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/lib/functions.rpy", line 28: expected an indented block
-    saved_games = renpy.list_saved_games()
-     ^
+File "game/screens.rpy", line 1634: 'action' is not a keyword argument or valid child of the screen statement.
+    action Function(load_characters)
+          ^
 
 Ren'Py Version: Ren'Py 8.2.3.24061702
-Thu Jun 27 23:21:48 2024
+Sun Jul 21 03:24:33 2024

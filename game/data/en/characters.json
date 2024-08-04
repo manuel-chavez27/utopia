@@ -1,0 +1,225 @@
+{
+    "characters": [
+        {
+            "id": "frederick_marcus",
+            "name": "Frederick Marcus",
+            "description": "The firstborn son of the town chief of Libertis, Volker Marcus, and his wife, Anja Klein. Trained as a warrior from a young age and educated to be the successor to his father. He is kindhearted and enjoys spending time with his family and in nature. He is 21 years old, with a height of 1.85 meters and a weight of 80 kilograms, his favorite food is Roast Beef Stew. He's been known to be extremely athletic from a young age and rumored to be the finest warrior from the town, being an extremely fast learner and mastering all his father's techniques. Despite being a very social individual, he's often spotted alone by the riverside when he rests. Some claim to have seen him with birds sleeping above his shoulders while he meditates. During his first years, his father often left the town for rescue missions to save people from war, and thus spent much of his childhood with his mother instead, but he deeply respected his father for saving lives and never felt alone thanks to Anja caring so much for him. Once his little brother was born, he got very proactive in helping raise him, and trained with his father to ease his responsibilities, which helped him enjoy many more family moments he didn't have as a child.",
+            "age": 21,
+            "height_m": 1.85,
+            "weight_kg": 80,
+            "favorite_food": "Roast Beef Stew",
+            "image": "images/characters/frederick_marcus.png"
+        },
+        {
+            "id": "ulrick_marcus",
+            "name": "Ulrick Marcus",
+            "description": "The second son of Volker Marucs and Anja Klein. Very emotional and honest, with a straightforward personality. His training as a warrior has just started, but he's following along the steps of his older brother and is showing promise as a warrior, particularly standing out with his archery abilities. He is 14 years old, with a height of 1.60 meters and a weight of 55 kilograms, his favorite food is Pork Kunckle. He has a lot of energy and is always the last to stop playing around the town, the other young kids tend to admire him, be that because of his strength or his position as the son of the chief, but the fact remains that he is very popular with people. He looks up to Frederick the most, particularly in his fighting skills; he wants to prove himself and one day spar against his father and brother.",
+            "age": 14,
+            "height_m": 1.60,
+            "weight_kg": 55,
+            "favorite_food": "Pork Kunckle",
+            "image": "images/characters/frederick_marcus.png"
+        },
+        {
+            "id": "volker_marcus",
+            "name": "Volker Marcus",
+            "description": "Chief of Libertis Town after he succeeded his father. He is 40 years old, with a height of 1.90 meters and a weight of 1.90 kilograms, doesn’t have a single favorite food, but loves anything with meat in general, isn't particularly fond of fruits and vegetables. His name is well known among the territory, respected by many due to his heroic exploits during the last war. In a sense those deeds allowed for Libertis to become a very well-established and independent town, they rescued people from slavers from Korzah and Ohgar alike and formed a community with all willing to protect lives during the war. He's known for having fought Dilitirio Morgan during an encounter and forced him to fall back, driving away his forces from the forest. When asked about it, he described Dilitrio as the most fearsome foe he's ever faced, and that he was lucky to have survived. After the \"Great Dying\" struck Korzah, and their war prowess was greatly diminished, Volker managed to raise walls and Libertis flourished as a town, where he got married to Anja Klein and fathered Frederick. For a few more years he kept protecting the forest, aiding other towns and cities like “Oase”, making a name for Libertis. Once Dilitrio Morgan died, he was stationed in Libertis and focused on educating his son; he later fathered Ulrick with Anja.",
+            "age": 40,
+            "height_m": 1.90,
+            "weight_kg": 1.90,
+            "favorite_food": "Loves anything with meat",
+            "image": "images/characters/frederick_marcus.png"
+        },
+        {
+            "id": "anja_klein",
+            "name": "Anja Klein",
+            "description": "Wife to Volker Marcus, and mother to Frederick and Ulrick. She is 37 years old, with a height of 1.67 meters and a weight of 1.60 kilograms, her favorite food is venison meat, but she has a very wide array of plates she loves and knows how to cook. The daughter of a chief from a tribe of the forest that eventually made an alliance with Libertis. She accompanied Volker in many missions, not as a fighter, but she helped tend wounds of the injured, prepare food for the warriors, and aid in the efforts to save people. Her bravery to jump into dangerous situations despite her inability to fight stood out, particularly to Volker, and he started to approach her when they had opportunities to rest on campsites and they quickly developed feelings for each other. Eventually their relationship evolved, and Volker promised to marry her once the war calmed down, but his feelings made him overprotective, and he tried to drive her out of the war, to which she refused. The war continued to intensify until Volker managed to drive Dilitrio's forces away from the forest. Anja tended to Volker’s wounds after the battle, but the deep injuries left permanent scars on his body, highlighting how that fight could have been his last. After the scare she received, she prioritized her feelings for Volker, and their relationship became intimate. She eventually got pregnant with Frederick, and both Volker and herself chose to keep her safe at Libertis. To achieve this, they worked together to better Libertis and raise a wall to protect it and the people more easily. Anja's father proposed for both to marry, and that with it, he would let Volker lead the people of his tribe and they would aid in both building the walls and defending the town. They enjoyed a happy wedding and Volker stayed in Libertis for the first year Frederick was born, but afterwards he decided to leave for missions, rescuing people during the war. Anja was worried, but ultimately believed in him, his strength, and will to save lives. After he left, she put all her efforts into raising Frederick and caring for him, raising a kind and strong boy. Once the war was over, Volker finally stationed at Libertis. It wasn't long after that Anja gave birth to Ulrick and they continued to rule over Libertis together, forming strong alliances with the different tribes and villages around the forest.",
+            "age": 37,
+            "height_m": 1.67,
+            "weight_kg": 1.60,
+            "favorite_food": "Venison meat",
+            "image": "images/characters/frederick_marcus.png"
+        },
+        {
+            "id": "emilia_annot",
+            "name": "Emilia Annot",
+            "description": "Daughter to the ruler of Oase city Horace Annot and his wife, Florence Basso. She is 20 years old, with a height of 1.60 meters, and a weight of 51 kilograms; she doesn't have a single favorite dish but loves any spicy food. When she was a child, she loved spending time watching her mother tend to the garden of the manor and listening to his father's audiences with his citizens. After losing her mother, she spent most of her time alone in the garden of her mother, spending little to no time with his father, since both ended up unconsciously avoiding each other after the incident. Despite this, once his father fell ill, she took the initiative to learn from his medics, since at the time the relations between Oase and other settlements was scarce, the necessary herbs to prepare his remedies were hard to come by, but she managed to grow them at her mother's garden and learned to prepare the remedies herself. She also immersed herself in reading, she always received good education too, thanks to being born the daughter of the lord, but she looked to go further by reading about a different array of skills, gardening, botany, medicine, diplomacy, among others. Because of her earnest nature, she spent little time socializing with people her age, showing no particular interest in romance and other hobbies normal for a young woman. Instead, she often used her free time resting at the garden of the manor, falling asleep at the bench in front of the waterfront regularly.",
+            "age": 20,
+            "height_m": 1.60,
+            "weight_kg": 51,
+            "favorite_food": "Spicy food",
+            "image": "images/characters/frederick_marcus.png"
+        },
+        {
+            "id": "horace_annot",
+            "name": "Horace Annot",
+            "description": "Ruler of Oase city and father to Emilia Annot. He is 45 years old, with a height of 1.69 meters, and a weight of 80 kilograms; much like his daughter, he doesn't have a single favorite dish, but prefers spicy food the most. During the previous war, his father ruled and fought until he eventually fell in battle and Horace took over as the new lord. He had always been a mediocre warrior at best, and with a young daughter and wife, he chose to keep Oase far from the conflict, relying on alliances with other settlements for the fights, giving resources in exchange for the protection. But once the war was over, some people garnered contempt against him for choosing to stay away from the battles and leaving the others do all the hard work for him, so a faction tried to usurp his throne, trying to kill him and his followers. The attempt failed, but Horace's wife, Florence, died in the conflict. He blamed himself for her death, and in consequence, the relationship with his daughter worsened, as he drifted apart from her. Asides from that, the paranoia made him end some amicable relations he had with other settlements and made Oase mostly an independent city. Despite the struggle, Oase managed to obtain stability under his ruling after some time, but shortly after he fell ill. He became stagnant alongside his city, until Emilia started to look after him and inspired him, reawakening his will to leave a better future for her.",
+            "age": 45,
+            "height_m": 1.69,
+            "weight_kg": 80,
+            "favorite_food": "Spicy food",
+            "image": "images/characters/frederick_marcus.png"
+        },
+        {
+            "id": "constantine_appius",
+            "name": "Constantine Appius",
+            "description": "He was a squire for the first Oase ruler, Horace's father, and became good friends with Horace since then. He is 38 years old, with a height of 1.87 meters, and a weight of 90 kilograms; his favorite food is beef stew. From a young age he showed good aptitude for combat and gained the trust of Horace’s father. But despite his abilities, he was outclassed during a battle against Korzah and was almost killed, until Horace´s father saved him. He continued to serve diligently, wishing to pay his lord back for saving his life, but in the end, he was unable to save the lord from dying during combat in one of the most ferocious battles against Dilitrio. He pledged to protect his friend Horace instead, who was to take over as the new ruler of Oase. He became the captain of the guard of Oase and did a good job of bettering the city's defenses, as well as helping with alliances and trainings. Once the rebellion against Horace started, Constantine organized the defense and managed to defeat the traitors, he quickly went to the manor to protect Horace, but by the time he got there, Florence had already perished. He fought the ringleader of the rebellion and despite receiving some grave injuries, he managed to defeat him and saved both Horace and Emilia's life in the process",
+            "age": 38,
+            "height_m": 1.87,
+            "weight_kg": 90,
+            "favorite_food": "Beef stew",
+            "image": "images/characters/frederick_marcus.png"
+        },
+        {
+            "id": "diomedes_morgan",
+            "name": "Diomedes Morgan",
+            "description": "The son of the emperor of Korzah, Jason Morgan, and Themis Othonos. He is 21 years old, with a height of 1.78 meters, and a weight of 70 kilograms; has no food preferences. By the time he was born the empire of Korzah was at war with other regions, it was the biggest, most prosperous empire, and overwhelmed most of their enemies in combat, but not long after he was born the “Great Dying” started to spread across Korzah. Dilitrio Morgan, Diomedes's grandfather and emperor of Korzah at the time, often took Diomedes to look at the aftermath of their invasions and trained him in combat since he was 5 and 6 years old. His father, Jason, on the other hand, refused to train him, despite being called the mightiest of the empire. Not long after, Eirene, Diomedes's little sister was born, and Jason kept Diomedes in the palace under the pretense of him having the responsibility of taking care of his little sister and his mother. As time passed by, the Great Dying became a bigger problem, the crops of the land withered one after another, the cities invaded by Korzah ceased to be functional, and became nothing but ruins, their resources waned, and their invasion of the other regions was greatly hindered. Around that same time, one night an attack on the royal palace occurred, in which Dilitrio was assassinated, alongside Diomedes's mother, his father was also found injured and poisoned, but managed to survive. After the incident, Jason reached for peace to the other regions and the long war ended. Not much was disclosed about the attack, and no faction was pinpointed as responsible for the assassination, but the war came to an end after that. Diomedes grew overprotective of his sister, almost as if making amens of being unable to protect his mother. At the same time, he harbored resentment towards his father, for being unable to protect her or even avenge her, to the point he perceives his father as a coward. Not only that, but the years he's been ruling have been the harshest for the Empire, as the aftermath of the Great Dying greatly affected the economy and stability of Korzah.",
+            "age": 21,
+            "height_m": 1.78,
+            "weight_kg": 70,
+            "favorite_food": "No preferences",
+            "image": "images/characters/frederick_marcus.png"
+        },
+        {
+            "id": "eirene_morgana",
+            "name": "Eirene Morgana",
+            "description": "Little sister to Diomedes, daughter of Jason and Themis. She is 14 years old, with a height of 1.55 meters, and a weight of 48 kilograms. Her favorite food are scrambled eggs. She barely knew her mother, since she died from a young age, so she ended up receiving most of her education from his brother and father, Diomedes in particular was very particular about looking out for her, and even though he can be a bit overprotective, she really appreciates the genuine love he gives her. She has a very good relationship with her father too, he often tells her stories about her mother, but they always seem to evoke sadness in his eyes, so she always tries to cheer him up at those times. She doesn't understand the complexity about the situation of the empire, but she tends to take over his father side whenever him and Diomedes argue about important decisions, she is very positive and idealistic, which makes his father ideals resonate with her more deeply than the often-times more cold and pessimistic nature of his brother.",
+            "age": 14,
+            "height_m": 1.55,
+            "weight_kg": 48,
+            "favorite_food": "Scrambled eggs",
+            "image": "images/characters/frederick_marcus.png"
+        },
+        {
+            "id": "dilitrio_morgan",
+            "name": "Dilitrio Morgan",
+            "description": "The first emperor of Korzah and said to be the most fearsome warrior. A conqueror through and through, he invaded nation after nation, creating the empire of Korzah and ruling with a firm hand. Eventually the empire of Ohgar managed to halt his advancement in the lands with the combined efforts of mercenary groups, towns and villages from the invaded regions. He was assassinated on his palace, but not much was disclosed on the matter, suspicions on Ohgar as the responsible is as far as the rumors go.",
+            "age": null,
+            "height_m": null,
+            "weight_kg": null,
+            "favorite_food": null,
+            "image": "images/characters/frederick_marcus.png"
+        },
+        {
+            "id": "jason_morgan",
+            "name": "Jason Morgan",
+            "description": "The second emperor of Korzah, father to Diomedes and Eirene Morgan. Husband to his late wife, Themis Othonos. He is 45 years old, with a height of 1.78 meters, and a weight of 75 kilograms. His favorite food is a vegetable soup. He was feared as one of the mightiest of the empire, second only to his father Dilitrio, and even that was questioned. Despite his strength he often spoke his dislike of battle and argued with his father on his decisions. After the assassination of his father, and wife, Jason took over the throne of the empire, a choice that went uncontested in the empire. He stopped the fighting and reached with Ohgar for peace. Once the war was over, he structured a plan to try and consolidate the Empire and heal the land after the \"Great Dying\". His years of ruling have been peaceful, improving Korzah's relationship with foreign regions, including the empire of Ohgar. Despite this, the Great Dying left a wound on the empire that was yet to heal, and so his people continue to suffer from poverty and famine.",
+            "age": 45,
+            "height_m": 1.78,
+            "weight_kg": 75,
+            "favorite_food": "Vegetable soup",
+            "image": "images/characters/frederick_marcus.png"
+        },
+        {
+            "id": "eskil_ilhamy",
+            "name": "Eskil Ilhamy",
+            "description": "The son of the Lord of Heartland, August Ilhamy. He is 21 years old, with a height of 1.80 meters, and a weight of 1.80 kilograms. His favorite food are Lamb ribs. Much like Diomedes and Frederick, he was born in the middle of the war between Korzah and other regions; his father, August won one of the most important fights of the war and conquered the territory that led to the birth of the city of Heartland. Eskil never accompanied his father to the battlefield and instead stayed with his mother, but she was of a frail constitution, and ended up passing away shortly before the war was over. After that, August spent a lot of time with Eskil, educating him, training him, and preparing him since he was six years old for him to eventually become the next ruler of Heartland. Despite the poor state of Korzah after the war, Heartland itself stayed strong, it was never infested with the plague known as the “Great Dying” and managed to grow good crops and cattle. The city quickly became the economic support of the empire, and his father a loved and admired leader by many. Despite this putting a lot of pressure on Eskil, he was grateful to be able to learn from his father and follow his footsteps.  The same sense of admiration he felt towards his father made the interactions he's had with Diomedes in the past a bit awkward, as he felt he was always disrespectful towards his own father, the emperor Jason. Despite this, because of the close friendship August and Jason had, Eskil and Diomedes ended up spending a fair amount of time together in their teenage years, sometimes being trained together in martial arts, and attending the same diplomatic events. When he became 19 years old, he married Carice Rhys. Their marriage is still young, and they have not fathered any children, but they have seemingly been enjoying of a good life together.",
+            "age": 21,
+            "height_m": 1.80,
+            "weight_kg": 1.80,
+            "favorite_food": "Lamb ribs",
+            "image": "images/characters/frederick_marcus.png"
+        },
+        {
+            "id": "august_ilhamy",
+            "name": "August Ilhamy",
+            "description": "The Lord of Heartland, and father to Eskil Ilhamy. He is 45 years old, with a height of 1.80 meters and a weight of 80 kilograms. His favorite food are lamb ribs. He is a childhood friend of Jason Morgan, and often trained and fought alongside him, both distinguished themselves in battle and won many combats together. It's also noted that when the battle was at its fiercest, and the \"Great Dying\" started to spread across the empire, August managed to conquer the territory that became the city of Heartland by himself, without the help of Dilitrio's forces. This deed earned him respect across Korzah and Dilitrio named him lord and shared resources for him to build the city. After the war, this city became the most prosperous one of Korzah, and August continues to support the empire as the most loyal subject of his emperor and friend, Jason. Many claim that had it not been for his leadership in Heartland, the Empire would have perished from the \"Great Dying\" a long time ago. If there is one regret August has, is being unable to offer his deceased wife a better care and life when she was still alive, but he actively tries to make it up by trying to give his son, Eskil, a better life. He has never been seen to remove his wedding ring and can be found almost every morning at his wife's grave with a fresh bouquet of rose flowers.",
+            "age": 45,
+            "height_m": 1.80,
+            "weight_kg": 80,
+            "favorite_food": "Lamb ribs",
+            "image": "images/characters/frederick_marcus.png"
+        },
+        {
+            "id": "carice_rhys",
+            "name": "Carice Rhys",
+            "description": "The wife of Eskil Ilhamy, and daughter of Menelaos Rhys. She is 20 years old, with a height of 1.67 meters and a weight of 63 kilograms. Her favorite food is brown cheese. Menelaos Rhys was the leader of the resistance movement against Korzah during the war of Dilitrio's reign, but he was defeated in combat and captured by August Ilhamy. Despite facing each other in the battlefield as enemies, August and Menelaos eventually agreed for a ceasefire without Dilitrio's knowledge, the pact allowed August and Menelaos to work together to make the city of Heartland. For this alliance to work, August became the leader figure of both sides, making Menelaos relinquish his title as lord. The only condition was for Eskil and Carice, to be married when they became of age, keeping the Rhys family in an important position in the city, and the empire. Carice and Eskil met each other when they were 8 and 9 years old respectively, their relationship was always very polite, as they both knew that they were supposed to marry each other one day. Eventually, when Carice became 18 years old, both decided it was time to fulfill their duties and married each other. Even though they have not fathered any children, they seemingly have enjoyed their 2 years of living together so far.",
+            "age": 20,
+            "height_m": 1.67,
+            "weight_kg": 63,
+            "favorite_food": "Brown cheese",
+            "image": "images/characters/frederick_marcus.png"
+        },
+        {
+            "id": "ambrus_cadman",
+            "name": "Ambrus Cadman",
+            "description": "The Royal guard, and commander of the forces of Korzah. He is 35 years old, with a height of 2 meters, and weight of 110 kilograms. His favorite food are meat and potatoes. After the war was over, Jason selected Ambrus to be his personal guard, not much is known about him, as he did not particularly stood out during the war, but he is respected as one of the best fighters the empire has to offer. He trains his men in a ruthless manner, boasting having the best trained army in the empire. He leads a pretty rutinary life, after finishing his duties he always goes back home to his wife, he doesn't not frequent any bars or restaurants, but can often be spotted at the colosseum to watch the fights and tournaments.",
+            "age": 35,
+            "height_m": 2,
+            "weight_kg": 110,
+            "favorite_food": "Meat and potatoes",
+            "image": "images/characters/frederick_marcus.png"
+        },
+        {
+            "id": "medea_allatou",
+            "name": "Medea Allatou",
+            "description": "Wife to Ambrus Cadman, she is 30 years old, with a height of 1.70 meters, and a weight of 60 kilograms. Her favorite food is Spanakopita. Not much is known about her, but she is serving Diomedes as counselor and assisting on the use of Avra powers. She seems very knowledgeable about how these mystical powers work and is working in favor of furthering Diomedes's goals. Her intentions are vague, but all she's really asked in return for her services is to capture Taidhgin de Rais, an old man that visited from Ohgar to fulfill the negotiations among Korzah and Ohgar.",
+            "age": 30,
+            "height_m": 1.70,
+            "weight_kg": 60,
+            "favorite_food": "Spanakopita",
+            "image": "images/characters/frederick_marcus.png"
+        },
+        {
+            "id": "erebus_lothbrok",
+            "name": "Erebus Lothbrok",
+            "description": "Twin brother to Phoibos, son to Talant Lothbrok, and ruler to Crystalbrook. He is 35 years old, with a height of 1.80 meters, and a weight of 87 kilograms. His favorite food is practically any dish with chicken. He was one of the most outstanding warriors from Korzah during the war, and leaded his army alongside his brother Phoibos to victory in many battles, including the conquest of Crystalbrook, a fierce battle where ultimately Erebus managed to slay in battle the previous ruler of the city. For his feats during war, he was appointed as the new ruler of Crystalbrook, leaving the responsibility of ruling Castlefell to his brother Phoibos and their father. After the war was over, he focused to restore Crystalbrook to it's former glory, since the territory was greatly affected by the Great Dying. Fortunately for him, the city has plenty of resources in the form of mines and minerals, which allowed trading to be a reliable source of income for the city, while getting guaranteed cooperation from his family at Castlefell.",
+            "age": 35,
+            "height_m": 1.80,
+            "weight_kg": 87,
+            "favorite_food": "Any dish with chicken",
+            "image": "images/characters/frederick_marcus.png"
+        },
+        {
+            "id": "phoibos_lothbrok",
+            "name": "Phoibos Lothbrok",
+            "description": "Twin brother to Erebus, son to Talant Lothbrok, and ruler of Castlefell. He is 35 years old, with a height of 1.80 meters, and a weight of 87 kilograms. His favorite food is practically any dish with chicken. Unlike his brother Erebus, he did not particularly stand out during the war, during the conquest of Crystalbrook, he was injured by the ruler of the city at the time and would have perished had Erebus not saved his life. Despite managing to survive the conflict, he was kept out of further battles, since losing his right eye greatly hampered his ability to fight. Since then, he helped his father rule Castlefell, while Erebus took the responsibility of ruling Crystalbrook. A few years after the war was over, Talant passed away due to natural causes, and Phoibos became the official ruler of the city. His focus has been to maintain stability in the city while aiding his brother to restore Crystalbrook to it's formar state. Despite not having the same feats his brother showed in battle, Phoibos is still pretty respected across the empire, and thought to be a great ruler.",
+            "age": 35,
+            "height_m": 1.80,
+            "weight_kg": 87,
+            "favorite_food": "Any dish with chicken",
+            "image": "images/characters/frederick_marcus.png"
+        },
+        {
+            "id": "hironori_sato",
+            "name": "Hironori Sato",
+            "description": "He is the emperor of the Empire of Ohgar, he is 43 years old, with a height of 1.72 meters and a weight of 70 kilograms. His favorite food is Udon noodle soup. He is married to Akemi Suzuki, and has fathered 2 children, although only the youngest, Jirou Sato lives to this day, since his firstborn son died during the war against Dilitrio Morgan. Despite his animosity against Korzah, when Jason reached for peace he agreed without much opposition, and his empire has nourished exponentially ever since the war stopped. He is considered an ideal ruler, and is widely respected not only in Ohgar, but across the land.",
+            "age": 43,
+            "height_m": 1.72,
+            "weight_kg": 70,
+            "favorite_food": "Udon noodle soup",
+            "image": "images/characters/frederick_marcus.png"
+        },
+        {
+            "id": "taidhgin_de_rais",
+            "name": "Taidhgin de Rais",
+            "description": "He is and advisor from Ohgar, and seemingly old friend to Jason Morgan. He is 70 years old, with a height of 1.70 meters, and a weight of 60 kilograms. His favorite food is miso soup. Despite his old age, he is still active and helms one of the most important families in Ohgar. His constitution does seem a bit week though, and he always carries himself around with the help of an elegant walking stick that stounds out for having a unique looking crystal on top.",
+            "age": 70,
+            "height_m": 1.70,
+            "weight_kg": 60,
+            "favorite_food": "Miso soup",
+            "image": "images/characters/frederick_marcus.png"
+        },
+        {
+            "id": "moriko_de_rais",
+            "name": "Moriko de Rais",
+            "description": "Son to Taidhgin de Rais. He is 30 years old, with a height of 1.70 meters, and a weight of 85 kilograms. His favorite food is sushi. He is greatly respected in Ohgar as an individual of great intellect and combat prowess, considered by many a true genius. From a young age he has been educated by his father personally and trained by Ohgar's warriors from his teenage years onward.",
+            "age": 30,
+            "height_m": 1.70,
+            "weight_kg": 85,
+            "favorite_food": "Sushi",
+            "image": "images/characters/frederick_marcus.png"
+        },
+        {
+            "id": "takiko_sakurai",
+            "name": "Takiko Sakurai",
+            "description": "Ruler of Kairi city from Ohgar. She is 30 years old, with a height of 1.63 meters, and a weight of 65 kilograms. Her favorite food is Sashimi with soy sauce. He family has ruled Kairi city for years, and she recently became the head of the family after his father passed away, multiple marriage offers have been received for her hand, but she has refused them all. Asides from her personal life, it is not yet known how he awakened her use of Avra powers, but she has shown mastery of it on the same level as Diomedes, with feats of similar scale, with her creating an entire ocean that blocked the only land route for Korzah to invade Ohgar.",
+            "age": 30,
+            "height_m": 1.63,
+            "weight_kg": 65,
+            "favorite_food": "Sashimi with soy sauce",
+            "image": "images/characters/frederick_marcus.png"
+        }
+
+    ]
+}

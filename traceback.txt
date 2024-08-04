@@ -1,42 +1,89 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "renpy/common/00start.rpy", line 216, in script call
-    call _load_reload_game from _call__load_reload_game_1
-  File "renpy/common/00keymap.rpy", line 531, in script
-    python hide:
-  File "renpy/common/00keymap.rpy", line 531, in <module>
-    python hide:
-  File "renpy/common/00keymap.rpy", line 542, in _execute_python_hide
-    renpy.load(renpy.session["_reload_slot"])
-Exception: Couldn't find a place to stop rolling back. Perhaps the script changed in an incompatible way?
+  File "game/screens.rpy", line 1624, in execute
+    screen encyclopedia():
+  File "game/screens.rpy", line 1624, in execute
+    screen encyclopedia():
+  File "game/screens.rpy", line 1635, in execute
+    if selected_encyclopedia_list.__eq__("characters"):
+  File "game/screens.rpy", line 1636, in execute
+    use characters_list
+  File "game/screens.rpy", line 1791, in execute
+    screen characters_list():
+  File "game/screens.rpy", line 1791, in execute
+    screen characters_list():
+  File "game/screens.rpy", line 1792, in execute
+    frame:
+  File "game/screens.rpy", line 1798, in execute
+    has vbox:
+  File "game/screens.rpy", line 1802, in execute
+    for character in get_current_page_characters():
+  File "game/screens.rpy", line 1802, in <module>
+    for character in get_current_page_characters():
+  File "game/lib/character_data.rpy", line 33, in get_current_page_characters
+    return characters_en[start_index:end_index]
+NameError: name 'characters_en' is not defined
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "renpy/common/00start.rpy", line 216, in script call
-    call _load_reload_game from _call__load_reload_game_1
-  File "renpy/common/00keymap.rpy", line 531, in script
+  File "renpy/common/_layout/screen_main_menu.rpym", line 28, in script
     python hide:
   File "C:\Users\eduar\Documents\renpy-8.2.3-sdk\renpy\ast.py", line 823, in execute
     renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
   File "C:\Users\eduar\Documents\renpy-8.2.3-sdk\renpy\python.py", line 1178, in py_exec_bytecode
     exec(bytecode, globals, locals)
-  File "renpy/common/00keymap.rpy", line 531, in <module>
+  File "renpy/common/_layout/screen_main_menu.rpym", line 28, in <module>
     python hide:
-  File "renpy/common/00keymap.rpy", line 542, in _execute_python_hide
-    renpy.load(renpy.session["_reload_slot"])
-  File "C:\Users\eduar\Documents\renpy-8.2.3-sdk\renpy\loadsave.py", line 829, in load
-    log.unfreeze(roots, label="_after_load")
-  File "C:\Users\eduar\Documents\renpy-8.2.3-sdk\renpy\rollback.py", line 1130, in unfreeze
-    self.rollback(0, force=True, label=label, greedy=greedy, on_load=True)
-  File "C:\Users\eduar\Documents\renpy-8.2.3-sdk\renpy\rollback.py", line 925, in rollback
-    self.load_failed()
-  File "C:\Users\eduar\Documents\renpy-8.2.3-sdk\renpy\rollback.py", line 843, in load_failed
-    raise Exception("Couldn't find a place to stop rolling back. Perhaps the script changed in an incompatible way?")
-Exception: Couldn't find a place to stop rolling back. Perhaps the script changed in an incompatible way?
+  File "renpy/common/_layout/screen_main_menu.rpym", line 35, in _execute_python_hide
+    ui.interact()
+  File "C:\Users\eduar\Documents\renpy-8.2.3-sdk\renpy\ui.py", line 301, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "C:\Users\eduar\Documents\renpy-8.2.3-sdk\renpy\display\core.py", line 2166, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
+  File "C:\Users\eduar\Documents\renpy-8.2.3-sdk\renpy\display\core.py", line 2688, in interact_core
+    root_widget.visit_all(lambda d : d.per_interact())
+  File "C:\Users\eduar\Documents\renpy-8.2.3-sdk\renpy\display\displayable.py", line 431, in visit_all
+    d.visit_all(callback, seen)
+  File "C:\Users\eduar\Documents\renpy-8.2.3-sdk\renpy\display\displayable.py", line 431, in visit_all
+    d.visit_all(callback, seen)
+  File "C:\Users\eduar\Documents\renpy-8.2.3-sdk\renpy\display\displayable.py", line 431, in visit_all
+    d.visit_all(callback, seen)
+  [Previous line repeated 1 more time]
+  File "C:\Users\eduar\Documents\renpy-8.2.3-sdk\renpy\display\screen.py", line 480, in visit_all
+    callback(self)
+  File "C:\Users\eduar\Documents\renpy-8.2.3-sdk\renpy\display\core.py", line 2688, in <lambda>
+    root_widget.visit_all(lambda d : d.per_interact())
+  File "C:\Users\eduar\Documents\renpy-8.2.3-sdk\renpy\display\screen.py", line 491, in per_interact
+    self.update()
+  File "C:\Users\eduar\Documents\renpy-8.2.3-sdk\renpy\display\screen.py", line 697, in update
+    self.screen.function(**self.scope)
+  File "game/screens.rpy", line 1624, in execute
+    screen encyclopedia():
+  File "game/screens.rpy", line 1624, in execute
+    screen encyclopedia():
+  File "game/screens.rpy", line 1635, in execute
+    if selected_encyclopedia_list.__eq__("characters"):
+  File "game/screens.rpy", line 1636, in execute
+    use characters_list
+  File "game/screens.rpy", line 1791, in execute
+    screen characters_list():
+  File "game/screens.rpy", line 1791, in execute
+    screen characters_list():
+  File "game/screens.rpy", line 1792, in execute
+    frame:
+  File "game/screens.rpy", line 1798, in execute
+    has vbox:
+  File "game/screens.rpy", line 1802, in execute
+    for character in get_current_page_characters():
+  File "game/screens.rpy", line 1802, in <module>
+    for character in get_current_page_characters():
+  File "game/lib/character_data.rpy", line 33, in get_current_page_characters
+    return characters_en[start_index:end_index]
+NameError: name 'characters_en' is not defined
 
 Windows-10-10.0.22631 AMD64
 Ren'Py 8.2.3.24061702
 Utopia 1.0
-Thu Jun 27 23:25:54 2024
+Sun Jul 21 03:27:47 2024

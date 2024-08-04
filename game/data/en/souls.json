@@ -1,0 +1,59 @@
+{
+    "souls": [
+        {
+            "id": "frederick_marcus",
+            "name": "Frederick Marcus",
+            "description": "He was able to awaken to his Avra when trying to protect Ulrick from Ambrus, his power manifests as a golden aura, almost like a translucent dust that surrounds any surface and protects it from any damage, it can resist cuts, strikes, fire or almost any other form of attack. While it boasts incredible defensive properties, it can also be used offensively, as it has an unparalleled striking force if hit by it."
+        },
+        {
+            "id": "ulrick_marcus",
+            "name": "Ulrick Marcus",
+            "description": "He was not able to fully awaken his powers, but during the fight with Ambrus his eyes undeniably turned to a silver color, and a menacing aura was felt coming from Ulrick."
+        },
+        {
+            "id": "diomedes_morgan",
+            "name": "Diomedes Morgan",
+            "description": "He awakened his powers during his battle against his father, it is of a deep orange color, and emits a powerful smell of smoked charcoal. Initially thought that anything that touched the Avra combusted alongside it, but further experiments proved that Diomedes could ignite the Avra whenever he thought appropriate. The explosions created with this Avra have been seen to have uncontested destructive power, capable of turning anything to dust in a matter of seconds and with Diomedes being capable of cover enormous amounts of land at a time, making him a walking disaster."
+        },
+        {
+            "id": "eskil_ilhamy",
+            "name": "Frederick Marcus",
+            "description": "He awakened the use of his Avra moments before Medea forcefully did it for him. His Avra is of a deep green color, and seems to interact with other's Avra, being able to suppress other's powers or move Avra's at will. During the final fight against Ambrus, Eskil managed to use his Avra to remove Ambrus's soul from his body and suppress his Avra until his soul dissipated and he died. He has also been able to use his power to remove Medeas's Avra from the body of other people, as was the case with Eirene and the prisoners in Oase."
+        },
+        {
+            "id": "carice_rhys",
+            "name": "Carice Rhys",
+            "description": "Her powers were accidently, and forcefully awakened when she touched the remains of Medea's Avra on Eskil's arm.  Her Avra is of a bright red color, and she involuntarily used it to control her blood, and almost died because of losing control of it. Not much else is known about her Avra."
+        },
+        {
+            "id": "ambrus_cadman",
+            "name": "Ambrus Cadman",
+            "description": "His Avra allows him to modify his body, or to create new ones altogether, making it a very versatile power that allows him to change his appearance, make his fists and or body bigger, and regenerate from any wound. This Avra makes Ambrus nigh unkillable."
+        },
+        {
+            "id": "medea_allatou",
+            "name": "Medea Allatou",
+            "description": "This Avra interacts with the mind of the people, it creates and blocks memories inside of people's heads, allowing Medea to manipulate people's minds, making them believe they are serving whoever she wants them to, fight for whatever she deems. It also works on hundreds of people at once, and doesn't seem to have a quantifiable limit, making it an extremely dangerous and useful tool."
+        },
+        {
+            "id": "erebus_lothbrok",
+            "name": "Erebus Lothbrok",
+            "description": "A power that interacts with light, seemingly eating away at it and concealing whatever the Avra touches."
+        },
+        {
+            "id": "phoibos_lothbrok",
+            "name": "Phoibos Lothbrok",
+            "description": "A power that interacts with light too, although this time it seems to create very bright light instead of making it disappear. "
+        },
+        {
+            "id": "takiko_sakurai",
+            "name": "Takiko Sakurai",
+            "description": "Her Avra allows her to control and create water, allowing feats like creating waves of water to push armies aside, or pinpoint attacks with high pressure and fast slashes of water, or even the creation of cyclones for extended periods of time. The most massive use of it was seen in the creation of an entire sea that blocked Korzah's advancement into Ohgar territory, as well as immediately making it disappear."
+        },
+        {
+            "id": "taidhgin_de_rais",
+            "name": "Taidhgin de Rais",
+            "description": "Said to be Medea's master when it came to her knowledge about Avra, but what he is capable of is still a mystery."
+        }
+    ]
+}
