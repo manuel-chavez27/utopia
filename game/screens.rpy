@@ -78,9 +78,9 @@ style vslider:
     thumb "gui/slider/vertical_[prefix_]thumb.png"
 
 
-style frame:
-    padding gui.frame_borders.padding
-    background Frame("gui/frame.png", gui.frame_borders, tile=gui.frame_tile)
+#style frame:
+#    padding gui.frame_borders.padding
+#    background Frame("gui/frame.png", gui.frame_borders, tile=gui.frame_tile)
 
 
 
@@ -408,7 +408,7 @@ screen main_menu():
         style_prefix "navigation"
 
         xalign 0.5
-        yalign 0.8
+        yalign 0.9
 
         spacing 25
 
@@ -462,7 +462,7 @@ screen main_menu():
         imagebutton:
             idle "gui/main_menu/Assets/Encyclopedia.png"
             hover "gui/main_menu/Assets/Encyclopedia_2.png"
-            action ShowMenu("gallery")
+            action ShowMenu("encyclopedia")
             at imagebutton_zoom
 
         imagebutton:

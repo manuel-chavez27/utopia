@@ -1,7 +1,33 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
+<<<<<<< HEAD
+  File "game/screens.rpy", line 1624, in execute
+    screen encyclopedia():
+  File "game/screens.rpy", line 1624, in execute
+    screen encyclopedia():
+  File "game/screens.rpy", line 1635, in execute
+    if selected_encyclopedia_list.__eq__("characters"):
+  File "game/screens.rpy", line 1636, in execute
+    use characters_list
+  File "game/screens.rpy", line 1791, in execute
+    screen characters_list():
+  File "game/screens.rpy", line 1791, in execute
+    screen characters_list():
+  File "game/screens.rpy", line 1792, in execute
+    frame:
+  File "game/screens.rpy", line 1798, in execute
+    has vbox:
+  File "game/screens.rpy", line 1802, in execute
+    for character in get_current_page_characters():
+  File "game/screens.rpy", line 1802, in <module>
+    for character in get_current_page_characters():
+  File "game/lib/character_data.rpy", line 33, in get_current_page_characters
+    return characters_en[start_index:end_index]
+NameError: name 'characters_en' is not defined
+=======
 TypeError: 'RevertableList' object is not callable
+>>>>>>> main
 
 -- Full Traceback ------------------------------------------------------------
 
@@ -16,6 +42,52 @@ Full traceback:
     python hide:
   File "renpy/common/_layout/screen_main_menu.rpym", line 35, in _execute_python_hide
     ui.interact()
+<<<<<<< HEAD
+  File "C:\Users\eduar\Documents\renpy-8.2.3-sdk\renpy\ui.py", line 301, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "C:\Users\eduar\Documents\renpy-8.2.3-sdk\renpy\display\core.py", line 2166, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
+  File "C:\Users\eduar\Documents\renpy-8.2.3-sdk\renpy\display\core.py", line 2688, in interact_core
+    root_widget.visit_all(lambda d : d.per_interact())
+  File "C:\Users\eduar\Documents\renpy-8.2.3-sdk\renpy\display\displayable.py", line 431, in visit_all
+    d.visit_all(callback, seen)
+  File "C:\Users\eduar\Documents\renpy-8.2.3-sdk\renpy\display\displayable.py", line 431, in visit_all
+    d.visit_all(callback, seen)
+  File "C:\Users\eduar\Documents\renpy-8.2.3-sdk\renpy\display\displayable.py", line 431, in visit_all
+    d.visit_all(callback, seen)
+  [Previous line repeated 1 more time]
+  File "C:\Users\eduar\Documents\renpy-8.2.3-sdk\renpy\display\screen.py", line 480, in visit_all
+    callback(self)
+  File "C:\Users\eduar\Documents\renpy-8.2.3-sdk\renpy\display\core.py", line 2688, in <lambda>
+    root_widget.visit_all(lambda d : d.per_interact())
+  File "C:\Users\eduar\Documents\renpy-8.2.3-sdk\renpy\display\screen.py", line 491, in per_interact
+    self.update()
+  File "C:\Users\eduar\Documents\renpy-8.2.3-sdk\renpy\display\screen.py", line 697, in update
+    self.screen.function(**self.scope)
+  File "game/screens.rpy", line 1624, in execute
+    screen encyclopedia():
+  File "game/screens.rpy", line 1624, in execute
+    screen encyclopedia():
+  File "game/screens.rpy", line 1635, in execute
+    if selected_encyclopedia_list.__eq__("characters"):
+  File "game/screens.rpy", line 1636, in execute
+    use characters_list
+  File "game/screens.rpy", line 1791, in execute
+    screen characters_list():
+  File "game/screens.rpy", line 1791, in execute
+    screen characters_list():
+  File "game/screens.rpy", line 1792, in execute
+    frame:
+  File "game/screens.rpy", line 1798, in execute
+    has vbox:
+  File "game/screens.rpy", line 1802, in execute
+    for character in get_current_page_characters():
+  File "game/screens.rpy", line 1802, in <module>
+    for character in get_current_page_characters():
+  File "game/lib/character_data.rpy", line 33, in get_current_page_characters
+    return characters_en[start_index:end_index]
+NameError: name 'characters_en' is not defined
+=======
   File "C:\Users\ManuelAlejandroChave\Downloads\renpy-8.2.3-sdk\renpy\ui.py", line 301, in interact
     rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
   File "C:\Users\ManuelAlejandroChave\Downloads\renpy-8.2.3-sdk\renpy\display\core.py", line 2166, in interact
@@ -25,8 +97,13 @@ Full traceback:
   File "C:\Users\ManuelAlejandroChave\Downloads\renpy-8.2.3-sdk\renpy\display\core.py", line 2519, in instantiate_transition
     trans = self.ongoing_transition[layer](
 TypeError: 'RevertableList' object is not callable
+>>>>>>> main
 
 Windows-10-10.0.19045 AMD64
 Ren'Py 8.2.3.24061702
 Utopia 1.0
+<<<<<<< HEAD
+Sun Jul 21 03:27:47 2024
+=======
 Sat Jul 20 07:04:13 2024
+>>>>>>> main

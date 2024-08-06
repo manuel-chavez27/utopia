@@ -1,4 +1,5 @@
 init python:
+
     def show_character(image, xcenter, ypos, use_dissolve=False, transform1=None, flip=None):
 
         base_transform = Transform(xcenter=xcenter, ypos=ypos)
