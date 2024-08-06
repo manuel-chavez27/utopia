@@ -77,6 +77,8 @@ define gui.name_text_size = 24
 
 define gui.dialogue_xpos = 30
 
+default current = 0
+
 style textbox:
     spacing 100
 
@@ -123,6 +125,10 @@ image fc shy = "Characters/Frederick_Marcus/Casual/FC_Shy_Embarrassed_Expression
 image fc frustrated = "Characters/Frederick_Marcus/Casual/FC_Frustrated_Expression.png"
 image fc depressed = "Characters/Frederick_Marcus/Casual/FC_Depressed_Expression.png"
 image fc angry = "Characters/Frederick_Marcus/Casual/FC_Angry_Expression.png"
+
+image fa talking happy = "Characters/Frederick_Marcus/Armor_FA1/FA1_talking_happy_expression.png"
+image fa shouting = "Characters/Frederick_Marcus/Armor_FA1/FA1_Shouting_Expression.png"
+image fa base happy = "Characters/Frederick_Marcus/Armor_FA1/FA1_Base_Happy_Expression.png"
 
 #Constantine Appius
 define ca = Character("Constantine Appius", windows_background=Frame("gui/textbox/Dialogue_Yellow_Box.png"), callback = name_callback, cb_name = "constantine", color="#FFF")
@@ -240,6 +246,22 @@ image ana nohand blood = "Characters/Ambrus_Cadman/Ambrus_Nude_Aura/ANA_No_Hand_
 image ana regenerated hand = "Characters/Ambrus_Cadman/Ambrus_Nude_Aura/ANA_Regenarated_Hand_Expression.png"
 image ana regenerating head = "Characters/Ambrus_Cadman/Ambrus_Nude_Aura/ANA_Regenarating_Head_Expression.png"
 image ana shouting = "Characters/Ambrus_Cadman/Ambrus_Nude_Aura/ANA_Shouting_Expression.png"
+
+#Diomedes Morgan Formal
+define dm = Character("Diomedes Morgan", color="#FFF")
+image df empathetic= "Characters/Diomedes_Morgan/Formal/DF_empathetic_expression.png"
+
+#Eirene Morgan
+define em = Character("Eirene Morgan", color="#FFF")
+image em scared= "Characters/Eirene_Morgan/EM_scared_expression.png"
+
+#Eirene Morgan
+define ei = Character("Eskill Ilhamy", color="#FFF")
+image eic2 depressed= "Characters/Eskill_Ilhamy/Casual_2/EC2_depressed_expression.png"
+
+#Carice Rhys
+define cr = Character("Carice Rhys", color="#FFF")
+image cr empathetic= "Characters/Carice_Rhys/CR_empathetic_expression.png"
 
 label start:
 

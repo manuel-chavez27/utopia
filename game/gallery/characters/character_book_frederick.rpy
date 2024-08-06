@@ -33,7 +33,7 @@ screen character_book_frederick():
                 else:
                     imagebutton:
                         idle im.Scale("gui/gallery/Character/character_frames/frederick_marcus/fc_base_happy_frame.png", 225, 203)
-                        action ShowMenu("character_frame","Characters/Frederick_Marcus/Casual/FC_Base_Happy_Expression.png", "character_book_frederick")
+                        action ShowMenu("character_frame", character_book = 'character_book_frederick', images = ['Characters/Frederick_Marcus/Casual/FC_Base_Happy_Expression.png', 'Characters/Frederick_Marcus/Armor_FA1/FA1_Base_Happy_Expression.png'], outfits = ['Casual', 'Armor'])
     
                 add im.Scale("gui/gallery/Character/image_frame_locked.png", 225, 203)
                 add im.Scale("gui/gallery/Character/image_frame_locked.png", 225, 203)

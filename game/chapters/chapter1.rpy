@@ -59,7 +59,7 @@ label ch1:
     "The strapping young knight took careful steps forward with his horse, riding down the steep road of cobblestone. Goats grazed about the pastures without a care in the world, though they would be beckoned back by their shepherds, who saw the foreigner. Frederick could only awkwardly smile and wave as he rode past them."
     "Those unaccustomed to this road were easy to spot because of how they walked—or rode. The gatekeepers could spot them from a mile away, and Frederick was no exception. One of them approached the knight as he would near the gate, holding his spear steady in hand."
 
-    # $ show_character("fc base talking", 0.85, 0, False, darken)
+    # $ show_character("fc base happy", 0.85, 0, False, darken)
     #     xcenter 0.85
     #     ypos 0
     #     darken 
@@ -555,7 +555,7 @@ label ch1:
         
         fm "Thank you for receiving me in your manor, Lord Annot. My father couldn't join us today, but he sends his kind regards and best wishes to you."
 
-        $ show_character("fc base talking", 0.85, 0, False, darken)
+        $ show_character("fc base happy", 0.85, 0, False, darken)
         
         $ show_character("ha talking happy", 0.15, 0, False, lighten)
         
@@ -569,7 +569,7 @@ label ch1:
         
         fm "Twenty-one, milord."
 
-        $ show_character("fc base talking", 0.85, 0, False, darken)
+        $ show_character("fc base happy", 0.85, 0, False, darken)
         
         $ show_character("ha talking happy", 0.15, 0, False, lighten)
 
@@ -591,7 +591,7 @@ label ch1:
 
         fm "They're doing great, thank you. My father's been training and taking my little brother Ulrick to hunt these days. Though, with so much going on, he's been relying on me to help with negotiations with other cities and settlements, among other things."
 
-        $ show_character("fc base talking", 0.85, 0, False, darken)
+        $ show_character("fc base happy", 0.85, 0, False, darken)
         
         $ textbox = "Narration"
         "Though, Fredrick's father seemed rather nervous about Oase, for some reason…."
@@ -711,7 +711,7 @@ label ch1:
 
         fm "You will not have to wait, milord. I came here today representing my town's interests, so any decisions I make here can be considered those of my people. I don't need my father's approval."
 
-        $ show_character("fc base serious", 0.85, 0, False, darken)
+        $ show_character("fc base happy", 0.85, 0, False, darken)
 
         $ show_character("ha talking serious", 0.15, 0, False, lighten)
         
@@ -727,7 +727,7 @@ label ch1:
 
         $ show_character("fc base serious", 0.85, 0, False, darken)
 
-        $ show_character("ha talking serious", 0.40, 0, False, lighten)
+        $ show_character("ha talking serious", 0.15, 0, False, lighten)
 
         ha "I see. Sadly, I can only accommodate for a few sets of equipment right now. As I've already told you, we don't have enough men right now, and that applies to the mine workers too."
 
@@ -769,7 +769,7 @@ label ch1:
 
         fm "I'll leave tomorrow at the first light. You can expect my men in around five days, milord."
 
-        $ show_character("fc base talking", 0.85, 0, False, darken)
+        $ show_character("fc base happy", 0.85, 0, False, darken)
 
         $ show_character("ha talking happy", 0.15, 0, False, lighten)
         
@@ -782,7 +782,7 @@ label ch1:
 
         fm "Thank you, Lord Annot. We will not let you down."
 
-        $ show_character("fc base talking", 0.85, 0, False, darken)
+        $ show_character("fc base happy", 0.85, 0, False, darken)
 
         $ show_character("ha talking happy", 0.15, 0, False, lighten)
 
@@ -795,7 +795,7 @@ label ch1:
 
         fm "It'll be my pleasure."
 
-        $ show_character("fc base talking", 0.85, 0, False, darken)
+        $ show_character("fc base happy", 0.85, 0, False, darken)
         
         hide ha base happy with dissolve
         hide fc base happy with dissolve
@@ -814,7 +814,7 @@ label ch1:
 
         $ show_character("ha base happy", 0.40, 0, True, lighten)
 
-        $ show_character("fc base talking", 0.85, 0, True, lighten)
+        $ show_character("fc base happy", 0.85, 0, True, lighten)
 
         $ show_character("ha base happy", 0.40, 0, False, darken)
         
@@ -865,7 +865,7 @@ label ch1:
         
         fm "O-Oh! Forgive me, milady! The pleasure is mine. I am Frederick Marcus, at your service."
 
-        $ show_character("fc base talking", 0.85, 0, False, darken)
+        $ show_character("fc base happy", 0.85, 0, False, darken)
         
         $ textbox = "Narration"
         "Frederick kneeled down to reach for Emilia's hand, and lifted it to kiss it."
@@ -944,7 +944,7 @@ label ch1:
         
         fm "Well, I have been caught… I admit it is quite hot— but I like it! I'll just have to get used to it."
 
-        $ show_character("fc base talking", 0.85, 0, False, darken)
+        $ show_character("fc base happy", 0.85, 0, False, darken)
         
         $ textbox = "Narration"
         "He hoped."
@@ -964,7 +964,7 @@ label ch1:
         $ textbox = "Thought"
         fm "(I am done for.)"
 
-        $ show_character("fc base talking", 0.85, 0, False, darken)
+        $ show_character("fc base happy", 0.85, 0, False, darken)
         
         $ textbox = "Narration"
         "He somehow managed to finish his food by taking small bites, followed by a drink of wine as they all kept talking about different topics during the dinner."
@@ -1031,7 +1031,7 @@ label ch1:
         
         fm "I thank you for the dinner, milord, have a good night."
 
-        $ show_character("fc base talking", 0.85, 0, False, darken)
+        $ show_character("fc base happy", 0.85, 0, False, darken)
 
         $ show_character("ed base happy", 0.15, 0, False, darken)
 
@@ -1051,7 +1051,7 @@ label ch1:
         
         fm "The pleasure is all mine, milady. I hope to see you again."
 
-        $ show_character("fc base talking", 0.85, 0, False, darken)
+        $ show_character("fc base happy", 0.85, 0, False, darken)
 
         hide ha base happy with dissolve
         hide ed base happy with dissolve
@@ -1077,14 +1077,14 @@ label ch1:
         ##----------------
         scene libertis_village_daylight with scene_fade
 
-        $ show_character("fc base talking", 0.85, 0, True, darken)
+        $ show_character("fc base happy", 0.85, 0, True, darken)
 
         $ show_character("fc happy talking", 0.85, 0, False, lighten)
 
         $ textbox = "Dialogue"
         fm "Arriving from a hunt, everyone?"
 
-        $ show_character("fc base talking", 0.85, 0, False, darken)
+        $ show_character("fc base happy", 0.85, 0, False, darken)
 
         $ textbox = "Narration"
         "As soon as Frederick said that, a younger boy in his teens came running towards him, carrying rabbits in both hands."
@@ -1096,7 +1096,7 @@ label ch1:
         $ textbox = "Dialogue"
         fm "Did you finally manage to hunt the rabbits, Ulrick?"
 
-        $ show_character("fc base talking", 0.85, 0, False, darken)
+        $ show_character("fc base happy", 0.85, 0, False, darken)
         
         $ show_character("um happy", 0.15, 0, False, lighten, flip)
         
@@ -1113,7 +1113,7 @@ label ch1:
         $ textbox = "Dialogue"
         fm "Good job, but don't get too excited and crush their ears, or your shot will go to waste."
 
-        $ show_character("fc base talking", 0.85, 0, False, darken)
+        $ show_character("fc base happy", 0.85, 0, False, darken)
 
         hide um happy with dissolve
         hide fc base happy with dissolve
@@ -1121,7 +1121,7 @@ label ch1:
         $ textbox = "Narration"
         "Then, Frederick turned up, and his father, a man with a big mustache, approached to hug him."
 
-        $ show_character("fc base talking", 0.85, 0, True, darken)
+        $ show_character("fc base happy", 0.85, 0, True, darken)
 
         $ show_character("va base serious", 0.15, 0, True, darken, flip)
 
@@ -1139,7 +1139,7 @@ label ch1:
         fm "On another topic, I also met his daughter and couldn't believe my eyes…"
         fm "She's way too beautiful! A pity I couldn't speak to her alone… how come you didn't tell me about her before?"
 
-        $ show_character("fc base talking", 0.85, 0, False, darken)
+        $ show_character("fc base happy", 0.85, 0, False, darken)
 
         $ show_character("va happy", 0.15, 0, False, lighten, flip)
 
@@ -1156,7 +1156,7 @@ label ch1:
 
         fm "Of course."
 
-        $ show_character("fc base talking", 0.85, 0, False, darken)
+        $ show_character("fc base happy", 0.85, 0, False, darken)
 
         hide va base serious with dissolve
         hide fc base happy with dissolve
@@ -1187,7 +1187,7 @@ label ch1:
             flip
         with easeinleft
 
-        $ show_character("fc base talking", 0.85, 0, True, darken)
+        $ show_character("fc base happy", 0.85, 0, True, darken)
 
         $ show_character("ak talking happy", 0.15, 0, False, lighten)
         
@@ -1201,7 +1201,7 @@ label ch1:
 
         fm "Thank you, mother, this is amazing, especially after what I had the other day."
 
-        $ show_character("fc base talking", 0.85, 0, False, darken)
+        $ show_character("fc base happy", 0.85, 0, False, darken)
 
         hide ak base happy with dissolve
 
@@ -1222,7 +1222,7 @@ label ch1:
         $ textbox = "Thought"
         fm "(I could still use that healer, to be honest…)"
 
-        $ show_character("fc base talking", 0.85, 0, False, darken)
+        $ show_character("fc base happy", 0.85, 0, False, darken)
 
         $ show_character("um base serious", 0.50, 0, True, darken, flip)
 
@@ -1237,7 +1237,7 @@ label ch1:
 
         fm "Hmmm, a red fish of some kind. I swear, my mouth was burning while eating it."
 
-        $ show_character("fc base talking", 0.85, 0, False, darken)
+        $ show_character("fc base happy", 0.85, 0, False, darken)
 
         hide um base serious with dissolve
 
@@ -1255,7 +1255,7 @@ label ch1:
 
         fm "All right, all right, I'll try."
 
-        $ show_character("fc base talking", 0.85, 0, False, darken)
+        $ show_character("fc base happy", 0.85, 0, False, darken)
 
         $ textbox = "Narration"
         "Then, Volker leaned over to Fredrick for a whisper."
@@ -1277,7 +1277,7 @@ label ch1:
         $ textbox = "Narration"
         "He could almost feel a tear coming down his cheek."
 
-        $ show_character("fc base talking", 0.85, 0, False, darken)
+        $ show_character("fc base happy", 0.85, 0, False, darken)
 
         $ show_character("um base serious", 0.50, 0, True, darken, flip)
 
@@ -1318,7 +1318,7 @@ label ch1:
 
         fm "Hey Mom, Dad says he doesn't like vegetables in his stew."
 
-        $ show_character("fc base talking", 0.85, 0, False, darken)
+        $ show_character("fc base happy", 0.85, 0, False, darken)
 
         $ show_character("va shouting", 0.15, 0, False, lighten, flip)
 
@@ -1364,7 +1364,7 @@ label ch1:
 
         fm "You did this to yourself, old man. Sorry."
 
-        $ show_character("fc base talking", 0.85, 0, False, darken)
+        $ show_character("fc base happy", 0.85, 0, False, darken)
 
         $ show_character("va scared", 0.15, 0, False, lighten, flip)
 
@@ -1378,7 +1378,7 @@ label ch1:
 
         fm "Heh…"
 
-        $ show_character("fc base talking", 0.85, 0, False, darken)
+        $ show_character("fc base happy", 0.85, 0, False, darken)
 
         hide va scared with dissolve
         hide ak angry assasin with dissolve
