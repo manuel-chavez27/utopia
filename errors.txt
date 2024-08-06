@@ -2,9 +2,18 @@
 errors listed below, and try again.
 
 
+<<<<<<< HEAD
+File "game/screens.rpy", line 1634: 'action' is not a keyword argument or valid child of the screen statement.
+    action Function(load_characters)
+          ^
+
+Ren'Py Version: Ren'Py 8.2.3.24061702
+Sun Jul 21 03:24:33 2024
+=======
 File "game/character_frame.rpy", line 31: 'xalign' is not a keyword argument or valid child of the for statement.
     xalign 0.5
           ^
 
 Ren'Py Version: Ren'Py 8.2.3.24061702
 Sat Jul 20 07:13:06 2024
+>>>>>>> main
