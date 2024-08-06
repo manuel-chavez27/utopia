@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 2024-07-22 02:53:14 UTC
 Windows-10-10.0.22631
 Ren'Py 8.2.3.24061702
@@ -153,3 +154,10 @@ Load screen analysis took 0.02s
 Analyze screens took 0.00s
 Prepare screens took 0.00s
 Running _start took 0.00s
+=======
+2024-07-20 02:39:58 UTC
+Windows-10-10.0.19045
+Ren'Py 8.2.3.24061702
+
+Early init took 0.20s
+>>>>>>> main

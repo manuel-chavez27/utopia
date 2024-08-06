@@ -1,3 +1,4 @@
+#Show Characters
 init python:
     def show_character(image, xcenter, ypos, use_dissolve=False, transform1=None, transform2=None):
 
@@ -17,3 +18,8 @@ init python:
 
         if use_dissolve:
             renpy.with_statement(dissolve)
+
+    class Outfit:
+        def __init__(self, character, outfit):
+            self.character = character
+            self.outfit = outfit
